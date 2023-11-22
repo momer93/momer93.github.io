@@ -2,38 +2,45 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Mohammed Omer
     - name: Date of Birth
-      value: 14th March 1879
+      value: 
     - name: Languages
-      value: English, German
+      value: English, German, Hindi, Bengali, Urdu
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of the Federal Armed Forces, Hamburg, Germany
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Mechanical Engineering
+        - Frugal Machine Tool Design
+        - Open Source Hardware
+        - title: TBD
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Master's Degree
+      institution: Technical University of Dortmund, Dortmund, Germany
+      year: 2018
       description:
-        - Description 1.
+        - Mechanical Engineering
         - Description 2.
+    - title: Bachelor's Degree
+      institution: German University of Technology, Muscat, Oman
+      year: 2015
+      description:
+        - Mechanical Engineering
+        - Thesis title - Design and Analysis of a composite chassis for the shell eco marathon prototype vehicle 2015
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Manufacturing Engineer
+      institution: Airbus, Hamburg, Germany
+      year: 2018 - 2021
       description:
         - Description 1.
         - Description 2.
