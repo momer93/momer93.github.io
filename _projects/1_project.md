@@ -2,15 +2,25 @@
 layout: page
 title: CNC Oxyfuel Cutter
 description: An open source CNC gas cutter for resource constrained settings
-img: assets/img/GC1.png
+img: assets/img/GC1.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: <
 ---
 
-An automated oxyfuel cutter was designed for a migrant run steel fabrication microenterprise in Oman. The aim of the design was to automate the hand held oxyfuel cutter as seen in figure 1.  
+An automated oxyfuel cutter was designed for a migrant run steel fabrication microenterprise in Oman. The aim of the design is to automate the hand held oxyfuel cutter as seen in figure below. The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from the local resouces available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The machine frame is made from standard square steel profiles which are locally available. The Motors, belt drive components and electronics are typical 3d printer components and were chosen due to their affordability and availability.
 
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/GC1.jpg" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Working proof of concept of the CNC Oxyfuel Cutter
+</div>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
