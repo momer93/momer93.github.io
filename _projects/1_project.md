@@ -41,24 +41,6 @@ As a next step various manufacturing processes within such workshops were observ
 | Functional Requirements (FR) | Design Parameters (DP) | Analysis | References | Risk | Countermeasures |
 | ---------------------------- | ----------------------|-----------|------------|------|-----------------|
 | Affordable design (<800USD) | use locally available materials, choose components with minimum required performance, don't overengineer | Most shop owners want cheap machines (interviews), Excel list of locally available raw materials | Cheap parts might be unreliable and break |  Test parts before use in design |
-| Easy to fabricate | Use simple 2D shapes for parts to be manufactured, consider local manufacturing capabilities, print out to scale drawings and stick on flat parts for drilling or cutting operation, avoid bending | Users aren't used to precision manufacturing and so local capabilities need to be considered | Interviews, observations | Limited fabrication choice may reduce precision of parts and so machine final accuracy | Compromise between precision required and simiplicity of fabrication process |  
+| Easy to fabricate | Use simple 2D shapes for parts to be manufactured, consider local manufacturing capabilities, print out to scale drawings and stick on flat parts for drilling or cutting operation, avoid bending | Users aren't used to precision manufacturing and so local capabilities need to be considered | Interviews, observations | Limited fabrication choice may reduce precision of parts and so machine final accuracy | Compromise between precision required and simplicity of fabrication process |  
 | Robust | Use materials not affected by harsh workshop environment | | | | |
 
-
-1. Affordable
-2. Easy to fabricate
-3. Easy to assemble
-4. Easy to use
-
-
-<!-- <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div> -->
