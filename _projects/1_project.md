@@ -2,7 +2,7 @@
 layout: page
 title: CNC Oxyfuel Cutter
 description: An open source CNC gas cutter for resource constrained settings
-img: assets/img/GC1.jpg
+img: assets/img/GC1.png
 importance: 1
 category: work
 related_publications: einstein1956investigations, einstein1950meaning
