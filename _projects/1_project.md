@@ -1,11 +1,11 @@
 ---
 layout: page
-title: CNC Oxyfuel Cutter
+title: A frugal CNC Oxyfuel Cutter
 description: An open source CNC gas cutter for resource constrained settings
 img: assets/img/GC1.jpg
 importance: 1
 category: work
-related_publications: <
+related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/12154
 ---
 
 An automated oxyfuel cutter was designed for a migrant run steel fabrication microenterprise in Oman. The aim of the design is to automate the hand held oxyfuel cutter as seen in figure below. The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from the local resouces available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The machine frame is made from standard square steel profiles which are locally available. The Motors, belt drive components and electronics are typical 3d printer components and were chosen due to their affordability and availability.
@@ -43,4 +43,20 @@ As a next step various manufacturing processes within such workshops were observ
 | Affordable design (<800USD) | use locally available materials, choose components with minimum required performance, don't overengineer | Most shop owners want cheap machines (interviews), Excel list of locally available raw materials | Cheap parts might be unreliable and break |  Test parts before use in design |
 | Easy to fabricate | Use simple 2D shapes for parts to be manufactured, consider local manufacturing capabilities, print out to scale drawings and stick on flat parts for drilling or cutting operation, avoid bending | Users aren't used to precision manufacturing and so local capabilities need to be considered | Interviews, observations | Limited fabrication choice may reduce precision of parts and so machine final accuracy | Compromise between precision required and simplicity of fabrication process |  
 | Robust | Use materials not affected by harsh workshop environment | | | | |
+
+The biggest constraints for this project were the materials and components availability. Starting with the frame, the cheapest materials available was mild steel hollow sections, rolled profiles and plates. Aluminum was almost impossible to find. There were no online platforms or shops that listed  Oman doesn't really have marketplaces for hobby components like electronics, motors or other components required for machine building. Online stores do exist but they are mainly selling consumer appliances.  This means it is almost impossible to find parts for building smaller machines such as M3 and smaller screws or other standard machine elements. There are new stores coming up to cater to the needs of spare parts for chinese machine tools that many are importing from China. However, these are more for industrial scale machines. The only way was to visit several local shops and make a list of commonly available materials. I listed these on an excel sheet along with their prices. This list constrained my available materials for use in the design. Next on discussions with the workshop workers and owner, we found there were a select few profiles, plates or bars that were often in surplus in the workshops since they used these often for fabrication jobs. They would prefer to use these than to have to buy one off exotic profiles. These field searches and discussions with the end user helped inform the choice of materials and parts for the design.
+
+## Insert a snapshot of the excell spreadsheet here ##
+
+The design started with paper sketches, internet searches and some rough calculations on paper before progressing onto CAD. The linear guides were the defining machine element that decided the final machine design since most conventional linear bearings such as linear rails, profile linear guides, rack and pinion etc were not locally available. These would also be expensive to source on aliexpress for instance due to their weight. There were some local shops selling some profiles but these were for larger industrial machines and were far too expensive to stay within the budget requirements. Therefore a simple linear bearing concept made of radial roller bearings mounted on bolts as axles was used for the X and Y cartesian motion.
+
+<Insert two pictures one of the CAD design and one of the final part>
+
+The Z axis setup was the most complex part of the machine since a typical manual gas cutter torch had to be mounted and the lever actuated. Conventionally, one uses a machine torch for such applications since they are vertical and easy to mount and fasten onto a CNC Z axis carriage, however these were not locally available and would have to be imported which had high shipping costs due to its weight and the end users said in interviews that they preferred to not buy another torch and it would be optimal if they could just use the torch the had on hand. Also in case someone had to buy the machine, the hand actuated torch could be sourced locally.
+
+<Insert picture of the Z axis>
+
+The final machine design can be seen below with its square profile frame construction and custom linear bearing guides.
+
+<Insert Cad of final design>
 
