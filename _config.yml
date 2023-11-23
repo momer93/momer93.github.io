@@ -78,7 +78,7 @@ semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0003-3192-5359 # your ORCID ID
 medium_username: # your Medium username
-quora_username: Mohammed Omer # your Quora username
+quora_username: Mohammad-Omer-5 # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
@@ -156,7 +156,7 @@ disqus_shortname: # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url:
 
 # -----------------------------------------------------------------------------
 # Collections

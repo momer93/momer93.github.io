@@ -23,13 +23,13 @@ The project was started by carrying our a field visit to manufacturing microente
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc2.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc2.jpg" title="Interviews_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc3.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc3.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc4.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc4.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
@@ -48,7 +48,7 @@ The biggest constraints for this project were the materials and components avail
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc10.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc10.png" title="Materials list" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -59,22 +59,22 @@ The design started with paper sketches, internet searches and some rough calcula
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc5.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc5.png" title="Linear carriage model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Snapshot of the materials excel sheet
+    Cad model of the linear carriage design
 </div>
 
 The Z axis setup was the most complex part of the machine since a typical manual gas cutter torch had to be mounted and the lever actuated. Conventionally, one uses a machine torch for such applications since they are vertical and easy to mount and fasten onto a CNC Z axis carriage, however these were not locally available and would have to be imported which had high shipping costs due to its weight and the end users said in interviews that they preferred to not buy another torch and it would be optimal if they could just use the torch the had on hand. Also in case someone had to buy the machine, the hand actuated torch could be sourced locally.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc6.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc6.png" title="Z axis model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Snapshot of the materials excel sheet
+    Cad model of the Z-axis
 </div>
 
 The machine was completely fabricated and assembled in the microenterprise in Oman. The fabrication of the individual components faced several challenges due to several reasons. The workers could not dimension parts accurately by just reading them off a drawing and so templates of holes or cut outs were printed to scale on a simple A4 printer. The shapes were then cut out and glued onto the metal. A center punch was used to hammer the center points of the holes and these were then drilled on a drill press.
