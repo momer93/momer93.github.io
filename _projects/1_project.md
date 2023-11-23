@@ -12,11 +12,11 @@ An automated oxyfuel cutter was designed for a migrant run steel fabrication mic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc1.png" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc1.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Working proof of concept of the CNC Oxyfuel Cutter
+    CAD design of the CNC Oxyfuel Cutter
 </div>
 
 The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. When asked about the need for more automated machines, they often complained about the lack of space because they imagined CNC or automated machine tools must be really big as industrial machines normally are. Most small shops had 2-3 workers and none of the workshops observed had any CNC machine tools. Those that did possess machine tools, these were usually manual lathes that were often purchased used. None of them carried out precision work, so they usually produced structural (car park shades, warehouses etc) and non structural items (gates, staircases, railings, furniture etc.) None of them had access to CNC machine tools and had no idea about CAD or CAM. 
@@ -46,17 +46,56 @@ As a next step various manufacturing processes within such workshops were observ
 
 The biggest constraints for this project were the materials and components availability. Starting with the frame, the cheapest materials available was mild steel hollow sections, rolled profiles and plates. Aluminum was almost impossible to find. There were no online platforms or shops that listed  Oman doesn't really have marketplaces for hobby components like electronics, motors or other components required for machine building. Online stores do exist but they are mainly selling consumer appliances.  This means it is almost impossible to find parts for building smaller machines such as M3 and smaller screws or other standard machine elements. There are new stores coming up to cater to the needs of spare parts for chinese machine tools that many are importing from China. However, these are more for industrial scale machines. The only way was to visit several local shops and make a list of commonly available materials. I listed these on an excel sheet along with their prices. This list constrained my available materials for use in the design. Next on discussions with the workshop workers and owner, we found there were a select few profiles, plates or bars that were often in surplus in the workshops since they used these often for fabrication jobs. They would prefer to use these than to have to buy one off exotic profiles. These field searches and discussions with the end user helped inform the choice of materials and parts for the design.
 
-<Insert a snapshot of the excel spreadsheet here ##>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gc10.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Snapshot of the materials excel sheet
+</div>
 
-The design started with paper sketches, internet searches and some rough calculations on paper before progressing onto CAD. The linear guides were the defining machine element that decided the final machine design since most conventional linear bearings such as linear rails, profile linear guides, rack and pinion etc were not locally available. These would also be expensive to source on aliexpress for instance due to their weight. There were some local shops selling some profiles but these were for larger industrial machines and were far too expensive to stay within the budget requirements. Therefore a simple linear bearing concept made of radial roller bearings mounted on bolts as axles was used for the X and Y cartesian motion.
+The design started with paper sketches, internet searches and some rough calculations on paper before progressing onto CAD. The linear guides were the defining machine element that decided the final machine design since most conventional linear bearings such as linear rails, profile linear guides, rack and pinion etc were not locally available. These would also be expensive to source on international B2C ecommerce platforms like aliexpress due to the excessive shipping costs owing to their weight. There were some local shops selling linear profile guides but these were for larger industrial machines and were far too expensive to stay within the budget requirements. Therefore a simple linear bearing concept made of radial roller bearings mounted on bolts as axles was used for the X and Y cartesian motion. The bearing setup can be preloaded by simply tightening the bolts and this way can also account for profiles with varying dimensional tolerances.
 
-<Insert two pictures one of the CAD design and one of the final part>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gc5.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Snapshot of the materials excel sheet
+</div>
 
 The Z axis setup was the most complex part of the machine since a typical manual gas cutter torch had to be mounted and the lever actuated. Conventionally, one uses a machine torch for such applications since they are vertical and easy to mount and fasten onto a CNC Z axis carriage, however these were not locally available and would have to be imported which had high shipping costs due to its weight and the end users said in interviews that they preferred to not buy another torch and it would be optimal if they could just use the torch the had on hand. Also in case someone had to buy the machine, the hand actuated torch could be sourced locally.
 
-<Insert picture of the Z axis>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gc6.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Snapshot of the materials excel sheet
+</div>
 
-The final machine design can be seen below with its square profile frame construction and custom linear bearing guides.
+The machine was completely fabricated and assembled in the microenterprise in Oman. The fabrication of the individual components faced several challenges due to several reasons. The workers could not dimension parts accurately by just reading them off a drawing and so templates of holes or cut outs were printed to scale on a simple A4 printer. The shapes were then cut out and glued onto the metal. A center punch was used to hammer the center points of the holes and these were then drilled on a drill press.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/xxx.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/xxx.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/xxx.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+</div>
+</div>
+<div class="caption">
+    Interviewing owners and workers from various steel fabrication microenterprises in Oman.
+</div>
+
+
+The final machine prototype can be seen below with its square profile frame construction and custom linear bearing guides.
 
 <Insert Cad of final design>
 
