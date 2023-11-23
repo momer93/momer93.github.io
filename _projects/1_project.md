@@ -12,7 +12,7 @@ An automated oxyfuel cutter was designed for a migrant run steel fabrication mic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc1.jpg" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc1.png" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -23,13 +23,13 @@ The project was started by carrying our a field visit to manufacturing microente
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/GC2.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc2.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/GC3.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc3.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/GC4.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc4.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
