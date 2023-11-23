@@ -12,7 +12,7 @@ An automated oxyfuel cutter was designed for a migrant run steel fabrication mic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc1.png" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/1.jpg" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
