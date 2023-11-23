@@ -12,7 +12,7 @@ An automated oxyfuel cutter was designed for a migrant run steel fabrication mic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc1.png" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc1.png" title="Working Gas Cutter" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -23,13 +23,13 @@ The project was started by carrying our a field visit to manufacturing microente
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc2.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc2.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc3.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc3.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc4.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc4.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
@@ -46,7 +46,7 @@ As a next step various manufacturing processes within such workshops were observ
 
 The biggest constraints for this project were the materials and components availability. Starting with the frame, the cheapest materials available was mild steel hollow sections, rolled profiles and plates. Aluminum was almost impossible to find. There were no online platforms or shops that listed  Oman doesn't really have marketplaces for hobby components like electronics, motors or other components required for machine building. Online stores do exist but they are mainly selling consumer appliances.  This means it is almost impossible to find parts for building smaller machines such as M3 and smaller screws or other standard machine elements. There are new stores coming up to cater to the needs of spare parts for chinese machine tools that many are importing from China. However, these are more for industrial scale machines. The only way was to visit several local shops and make a list of commonly available materials. I listed these on an excel sheet along with their prices. This list constrained my available materials for use in the design. Next on discussions with the workshop workers and owner, we found there were a select few profiles, plates or bars that were often in surplus in the workshops since they used these often for fabrication jobs. They would prefer to use these than to have to buy one off exotic profiles. These field searches and discussions with the end user helped inform the choice of materials and parts for the design.
 
-## Insert a snapshot of the excell spreadsheet here ##
+<Insert a snapshot of the excel spreadsheet here ##>
 
 The design started with paper sketches, internet searches and some rough calculations on paper before progressing onto CAD. The linear guides were the defining machine element that decided the final machine design since most conventional linear bearings such as linear rails, profile linear guides, rack and pinion etc were not locally available. These would also be expensive to source on aliexpress for instance due to their weight. There were some local shops selling some profiles but these were for larger industrial machines and were far too expensive to stay within the budget requirements. Therefore a simple linear bearing concept made of radial roller bearings mounted on bolts as axles was used for the X and Y cartesian motion.
 
