@@ -94,8 +94,10 @@ The final machine prototype can be seen below with its square profile frame cons
 
 Below is a FRDPARRC table from Professor Slocum's book on Precision Design.
 
+
 | Functional Requirements (FR) | Design Parameters (DP) | Analysis | References | Risk | Countermeasures |
 | ---------------------------- | ----------------------|-----------|------------|------|-----------------|
 | Affordable design (<800USD) | use locally available materials, choose components with minimum required performance, don't overengineer | Most shop owners want cheap machines (interviews), Excel list of locally available raw materials | Interviews | Cheap parts might be unreliable and break |  Test parts before use in design |
 | Easy to fabricate | Use simple 2D shapes for parts to be manufactured, consider local manufacturing capabilities, print out to scale drawings and stick on flat parts for drilling or cutting operation, avoid bending | Users aren't used to precision manufacturing and so local capabilities need to be considered | Interviews, observations | Limited fabrication choice may reduce precision of parts and so machine final accuracy | Compromise between precision required and simplicity of fabrication process |  
 | Robust | Use materials not affected by harsh workshop environment (high temperatures in summer and open air workshops) | Avoid 3d printed plastic parts or wood in design, enclose electronics to safeguard from dust and iron particles | observations, experience | Might be difficult to get robust electronics in the required price range | Test suitability of electronics and build safety measures in design |
+
