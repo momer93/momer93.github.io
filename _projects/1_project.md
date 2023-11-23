@@ -75,17 +75,17 @@ The machine was completely fabricated and assembled in the microenterprise in Om
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc11.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc11.jpg" title="paper template" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc12.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc12.jpg" title="Sticking the template onto part" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc13.jpg" title="Interviews" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc13.jpg" title="Drilling holes" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
-    Interviewing owners and workers from various steel fabrication microenterprises in Oman.
+    Drilling holes in components with paper drawing templates
 </div>
 
 The final machine prototype can be seen below with its square profile frame construction and custom linear bearing guides.
