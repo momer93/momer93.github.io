@@ -8,18 +8,35 @@ category: work
 related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/12154
 ---
 
-An automated oxyfuel cutter was designed for a migrant run steel fabrication microenterprise in Oman. The aim of the design is to automate the hand held oxyfuel cutter as seen in figure below. The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from the local resouces available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The machine frame is made from standard square steel profiles which are locally available. The Motors, belt drive components and electronics are typical 3d printer components and were chosen due to their affordability and availability.
+An automated oxyfuel cutter was designed for a migrant run steel fabrication microenterprise in Oman. The aim of the design is to automate the hand held oxyfuel cutter as seen in figure below. The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from the local resouces available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The machine frame is made from standard square steel profiles which are locally available. The Motors, belt drive components and electronics are typical 3d printer components and were chosen due to their affordability and availability. These are explained in detail below.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc1.png" title="CNC gas cutter model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc1.png" title="CNC gas cutter in action" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    CAD design of the CNC Oxyfuel Cutter
+    Picture of the machine working
 </div>
 
-The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. When asked about the need for more automated machines, they often complained about the lack of space because they imagined CNC or automated machine tools must be really big as industrial machines normally are. Most small shops had 2-3 workers and none of the workshops observed had any CNC machine tools. Those that did possess machine tools, these were usually manual lathes that were often purchased used. None of them carried out precision work, so they usually produced structural (car park shades, warehouses etc) and non structural items (gates, staircases, railings, furniture etc.) None of them had access to CNC machine tools and had no idea about CAD or CAM. 
+The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gc2.jpg" title="Interviews_1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gc3.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gc4.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
+</div>
+</div>
+<div class="caption">
+    Interviewing owners and workers from various steel fabrication microenterprises in Oman.
+</div>
+
+When asked about the need for more automated machines, they often complained about the lack of space because they imagined CNC or automated machine tools must be really big as industrial machines normally are. Most small shops had 2-3 workers and none of the workshops observed had any CNC machine tools. Those that did possess machine tools, these were usually manual lathes that were often purchased used. None of them carried out precision work, so they usually produced structural (car park shades, warehouses etc) and non structural items (gates, staircases, railings, furniture etc.) None of them had access to CNC machine tools and had no idea about CAD or CAM. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -90,14 +107,14 @@ The machine was completely fabricated and assembled in the microenterprise in Om
 
 The final machine prototype can be seen below with its square profile frame construction and custom linear bearing guides.
 
-<Insert Cad of final design>
+#insert Cad of final design#
 
 Below is a FRDPARRC table from Professor Slocum's book on Precision Design.
 
 
-| Functional Requirements (FR) | Design Parameters (DP) | Analysis | References | Risk | Countermeasures |
-| ---------------------------- | ----------------------|-----------|------------|------|-----------------|
-| Affordable design (<800USD) | use locally available materials, choose components with minimum required performance, don't overengineer | Most shop owners want cheap machines (interviews), Excel list of locally available raw materials | Interviews | Cheap parts might be unreliable and break |  Test parts before use in design |
-| Easy to fabricate | Use simple 2D shapes for parts to be manufactured, consider local manufacturing capabilities, print out to scale drawings and stick on flat parts for drilling or cutting operation, avoid bending | Users aren't used to precision manufacturing and so local capabilities need to be considered | Interviews, observations | Limited fabrication choice may reduce precision of parts and so machine final accuracy | Compromise between precision required and simplicity of fabrication process |  
-| Robust | Use materials not affected by harsh workshop environment (high temperatures in summer and open air workshops) | Avoid 3d printed plastic parts or wood in design, enclose electronics to safeguard from dust and iron particles | observations, experience | Might be difficult to get robust electronics in the required price range | Test suitability of electronics and build safety measures in design |
+ | Functional Requirements (FR) | Design Parameters (DP) | Analysis | References | Risk | Countermeasures |
+ | ---------------------------- | ----------------------|-----------|------------|------|-----------------|
+ | Affordable design (<800USD) | use locally available materials, choose components with minimum required performance, don't overengineer | Most shop owners want cheap machines (interviews), Excel list of locally available raw materials | Interviews | Cheap parts might be unreliable and break |  Test parts before use in design |
+ | Easy to fabricate | Use simple 2D shapes for parts to be manufactured, consider local manufacturing capabilities, print out to scale drawings and stick on flat parts for drilling or cutting operation, avoid bending | Users aren't used to precision manufacturing and so local capabilities need to be considered | Interviews, observations | Limited fabrication choice may reduce precision of parts and so machine final accuracy | Compromise between precision required and simplicity of fabrication process |  
+ | Robust | Use materials not affected by harsh workshop environment (high temperatures in summer and open air workshops) | Avoid 3d printed plastic parts or wood in design, enclose electronics to safeguard from dust and iron particles | observations, experience | Might be difficult to get robust electronics in the required price range | Test suitability of electronics and build safety measures in design |
 
