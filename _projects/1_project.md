@@ -2,7 +2,7 @@
 layout: page
 title: A frugal CNC Oxyfuel Cutter
 description: An open source CNC gas cutter for resource constrained settings
-img: assets/img/gc1.jpg
+img: assets/img/gc1.JPG
 importance: 1
 category: work
 related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/12154
@@ -12,7 +12,7 @@ An automated oxyfuel cutter was designed for a migrant run steel fabrication mic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc1.jpg" title="CNC gas cutter in action" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gc1.JPG" title="CNC gas cutter in action" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
