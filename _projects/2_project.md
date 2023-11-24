@@ -8,33 +8,22 @@ category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This 3D printer is a remix of the thingiverse user Scott_3D's hypercube evolution design. The project started out with the intention of carrying out machine build workshops in Hamburg, Germany. The initial 3D printer design was not enclosed and the electronics were outdated. I modified it to be fully enclosed, revamped the electronics and changed the dual z axis drives to a single motor driven Z axis. Moreover, I made a lego like instruction manual such that the printer could be replicated by laypersons in a 2 day build workshop. 10 such workshops were carried out in various institutions throughout hamburg. I personally prepared all the printer build kits that means procuring all the components, printing all the parts and packing them all in labelled packets.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
- ---
-   layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-   ---
+---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/3dp2.png" title="original 3d printer" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/3dp3.png" title="modified 3d printer" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: Original 3d printer design - Right: Modified 3d printer design
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}

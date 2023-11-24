@@ -8,11 +8,10 @@
     "url": "",
     "summary": "A mechanical engineer with a passion for inclusive and equitable design",
     "location": {
-      "address": "2712 Broadway St",
+      "address": "Holshofenweg",
       "postalCode": "CA 94115",
       "city": "Hamburg",
-      "countryCode": "Germany",
-      "region": "California"
+      "countryCode": "Germany"
     },
     "profiles": [
       {
@@ -27,8 +26,8 @@
       "name": "Laboratory for Manufacturing Technology, Helmut Schmidt University",
       "position": "Doctoral Researcher",
       "url": "https://www.hsu-hh.de/laft/mitarbeiter-2/omer_mohammed_msc",
-      "startDate": "2021-02-01",
-      "endDate": "2024-12-31",
+      "startDate": "2021-02",
+      "endDate": "2024-12",
       "summary": "I manage various research projects, teach and carry out my own research",
       "highlights": [
         "Machine design, project management, academic writing, digital fabrication workshops"
@@ -42,8 +41,8 @@
       "url": "https://www.tu-dortmund.de/",
       "area": "Mechanical Engineering",
       "studyType": "Masters",
-      "startDate": "2016-10-01",
-      "endDate": "2019-06-31",
+      "startDate": "2016-10",
+      "endDate": "2019-06",
       "score": "1,4",
       "courses": [
         "Forming technology, machining, additive manufacturing, fatigue analysis, automation and robotics, finite element analysis"
@@ -52,10 +51,10 @@
   ],
   "awards": [
     {
-      "title": "DAAD scholarsips for bachelor and master studies",
-      "date": "2011 - 2018",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "DAAD scholarsips for bachelors and masters",
+      "date": "2011-2015 & 2016-2018",
+      "awarder": "German Academic Exchange Service - DAAD",
+      "summary": "Awarded by RWTH Aachen university"
     }
   ],
   "certificates": [],
