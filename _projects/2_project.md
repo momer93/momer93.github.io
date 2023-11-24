@@ -1,8 +1,8 @@
 ---
 layout: page
 title: A frugal 3D Printer Design
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+description: A 3d printer design for low resource settings
+img: assets/img/3dp1.png
 importance: 2
 category: work
 giscus_comments: true
