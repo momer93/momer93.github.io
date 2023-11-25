@@ -31,13 +31,13 @@ The project was started by carrying our a field visit to manufacturing microente
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc2.jpg" title="Interviews_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc2.jpg" title="Interviews_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc3.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc3.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc4.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc4.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
@@ -48,13 +48,13 @@ When asked about the need for more automated machines, they often complained abo
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc14.jpg" title="Workshop_1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc14.jpg" title="Workshop_1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc15.jpg" title="Workshop_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc15.jpg" title="Workshop_2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc16.jpg" title="Workshop_3" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc16.jpg" title="Workshop_3" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
@@ -67,7 +67,7 @@ The biggest constraints for this project were the materials and components avail
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc10.png" title="Materials list" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc10.png" title="Materials list" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -78,7 +78,7 @@ The design started with paper sketches, internet searches and some rough calcula
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc5.png" title="Linear carriage model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc5.png" title="Linear carriage model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -89,7 +89,7 @@ The Z axis setup was the most complex part of the machine since a typical manual
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc6.png" title="Z axis model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc6.png" title="Z axis model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -100,13 +100,13 @@ The machine was completely fabricated and assembled in the microenterprise in Om
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc11.JPG" title="paper template" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc11.JPG" title="paper template" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc12.JPG" title="Sticking the template onto part" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc12.JPG" title="Sticking the template onto part" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc13.JPG" title="Drilling holes" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc13.JPG" title="Drilling holes" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
