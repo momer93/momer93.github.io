@@ -1,41 +1,32 @@
 ---
 layout: page
-title: A frugal 3D Printer Design
-description: A 3d printer design for low resource settings
+title: The hypercuboid 3D printer
+description: Redesigning a 3D printer for replication
 img: assets/img/3dp1.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-This 3D printer is a remix of the thingiverse user Scott_3D's hypercube evolution design. The project started out with the intention of carrying out machine build workshops in Hamburg, Germany. The initial 3D printer design was not enclosed and the electronics were outdated. I modified it to be fully enclosed, revamped the electronics and changed the dual z axis drives to a single motor driven Z axis. Moreover, I made a lego like instruction manual such that the printer could be replicated by laypersons in a 2 day build workshop. 10 such workshops were carried out in various institutions throughout hamburg. I personally prepared all the printer build kits that means procuring all the components, printing all the parts and packing them all in labelled packets.
+# insert picture of current printer printing #
 
----
+This 3D printer design is a remix of the thingiverse user [Scott_3D's hypercube evolution](https://www.thingiverse.com/thing:2254103) design which is an open source design with several community groups. The selection of this design was based on its track record of successful replications, signifying its functionality and widespread popularity. In terms of funciton, its coreXY configuration enables swift movement of the print head along the X-Y plane. Moreover it uses a healthy combination of stiff aluminium slotted profiles to create a torsionally rigid box frame design, while the moving parts and brackets are from 3D printed PETG parts. The rigid design mean't the frame could withstand high accelerations and decelerations without flexing.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3dp2.png" title="original 3d printer" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3dp3.png" title="modified 3d printer" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: Original 3d printer design - Right: Modified 3d printer design
-</div>
+The project started out with the intention of replicating a 3D printer with citizen participants in Hamburg, Germany. The oiginal design had several problems that needed to be rectified before it could be used. The design was not enclosed, which mean't high temperature plastics like ABS that required a closed build chamber could not be printed without warping. Moreover, the open design meant, it posed a hazard for children since the printer would be used in schools. The bowden drive extruder did not allow the printing of flexible filaments since the extruder motor was mounted further away from the printhead, this mean't flexible filament would get compressed in the bowden tube and not be pushed through the hot end. The electronics were also outdated i.e. it used an 8-bit microcontroller, that could not process coreXY kinematics quick enough and also was limited to a 12V power supply, which would not be able to run the motors efficiently enough.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+# Insert picture of bowden vs direct drive #
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+To enhance it, I fully enclosed the structure with a temperature controlled build chamber. I modernized the electronics in that a 32 bit microcontroller was used, which mean't a 24V power supply could be used, which would allow the motors to run more efficiently. The print head was redesigned and a lightweight direct drive extruder with a small Nema14 pancake motor was mounted. This allowed the printhead to be as light as possible so that faster motion could be achieved by the coreXY setuo. Also a cable chain was implemented which gave the printer a more refined look. Shielded cables were used on the endstop cables, so that no interference would occur, which was a case with the previous optical endstops. In the original design 2 motors were used with the Z axis, with each motor shaft directly coupled to each lead screw with a flex coupler. The direct coupling of the motors to the Z-axis leadscrews meant, vibrations were transmitted directly to the build plate, introducing wave like patterns on the 3d printed parts surface. This was replaced with a single Z motor that transmitted the motion by a closed belt to both the Z lead screws simultaneously. This allowed the Z axis lead screws to move in sync and also removed the vibrations to the bed by the belt drive.
+
+Furthermore, I developed an instruction manual resembling LEGO manuals, facilitating easy replication by laypersons during a concise two-day build workshop. 
+
+# insert picture of new printer and a build manual snapshot  side by side #
+
+Conducting ten such workshops across multiple institutions in Hamburg, I personally orchestrated the preparation of all printer build kits. This encompassed sourcing components, printing necessary parts, and meticulously packaging them into labeled sets, ensuring a seamless experience for workshop participants. This was challenging since during corona we were stuck to working from home, so i literally transformed my room into a small production facility.
+
+# Insert pictures of the printer being built in build workshops #
+
+
 
 
 <div class="row justify-content-sm-center">
@@ -68,3 +59,8 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+
+Even though the design was affordable at about 650 Euros for the whole kit and was relatively easy to replicate. When exploring its replicaiton in Oman, it turned out to be really difficult to source most of the components locally. The electronics could be imported from china via aliexpress. However to import heavier parts such as the slotted aluminium profiles was prohibitively expensive. Therefore the design had to be slightly adapted in order to be replicated in Oman. The only possibility was to use steel square hollow sections. The problem here was assembling firstly the frame together and then mounting the various components on the frame. For the slotted aluminium profile this was rather easy, since any part could be mounted along any of the profile faces by simply inserting a so called hammer nut. With the lack of this slot on the steel profiles, a new method of mounting everything would have to be derived.
+
+An initial design idea was to drill through holes on every connecting point and to use custom made L brackets to connect the frame profiles together. This method however required many accurately drilled holes on all the frame profiles and was very time consuming. The holes were made slightly bigger than the bolt size, so for M6 bolts, the holes were 7mm in diameter. This would allow the frame profiles to be adjusted during assembly incase the holes were not accurately spaced. This 

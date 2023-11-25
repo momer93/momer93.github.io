@@ -2,24 +2,32 @@
 layout: page
 title: A frugal CNC Oxyfuel Cutter
 description: An open source CNC gas cutter for resource constrained settings
-img: assets/img/gc1.JPG
+img: assets/img/gcp/gc1.JPG
 importance: 1
 category: work
 related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/12154
 ---
 
-An automated oxyfuel cutter was designed for a migrant run steel fabrication microenterprise in Oman. The aim of the design is to automate the hand held oxyfuel cutter as seen in figure below. The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from the local resouces available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The machine frame is made from standard square steel profiles which are locally available. The Motors, belt drive components and electronics are typical 3d printer components and were chosen due to their affordability and availability. These are explained in detail below.
+# CNC Oxyfuel Cutter #
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gc1.JPG" title="CNC gas cutter in action" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc1.JPG" title="CNC gas cutter in action" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Picture of the machine working
 </div>
 
-The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. 
+A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for a migrant run steel fabrication microenterprise in Oman. The design objective was to automate the hand held oxyfuel cutter that is commonly used steel fabrication workshops.
+
+## insert picture of a hand held oxyfuel cutter ##
+
+The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from resouces locally available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The cnc gas cutter design was chosen to explore the potential of frugally designed open source machine for its impact potential on the one hand and on the other hand to shed light on how frugal design for such resource constrained settings can work and what challenges can be faced.
+
+The first proof of concept that was built in Oman was a low fidelity prototype. This was done to keep costs low and figure out the viability of the design quickly. The machine frame is made from standard 2" (50mm) square steel profiles which are usually in surplus in such workshops. The mechanical and electronic components are typical 3d printer components and were chosen due to their affordability and availability. 
+
+The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. They seldom had the time to work on such projects due to working 6 days a week, 12 hours each day. This mean't they rarely had free time and therefore it was imperative to find a company that would be willing to help with the build during their work hours.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
