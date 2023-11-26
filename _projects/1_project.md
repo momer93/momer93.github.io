@@ -19,7 +19,7 @@ related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/121
     Picture of the machine working
 </div>
 
-A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for a migrant run steel fabrication microenterprise in Oman. The design objective was to automate the hand held oxyfuel cutter that is commonly used steel fabrication workshops.
+A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for a migrant run steel fabrication microenterprise in Oman. The design objective was to automate the oxyfuel cutting process that is commonly used in steel fabrication workshops. The main design constraints were the cost, local materials and local manufacturing capability.
 
 ## insert picture of a hand held oxyfuel cutter ##
 

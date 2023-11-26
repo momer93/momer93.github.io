@@ -2,7 +2,7 @@
 layout: page
 title: The hypercuboid 3D printer
 description: Redesigning a 3D printer for replication
-img: assets/img/3dp1.png
+img: assets/img/3dp/3dp1.png
 importance: 2
 category: work
 giscus_comments: true
@@ -30,9 +30,18 @@ Furthermore, I developed an instruction manual resembling LEGO manuals, facilita
 
 Conducting ten such workshops across multiple institutions in Hamburg, I personally prepared all the printer build kits. This encompassed sourcing components, 3d printing parts, and meticulously packaging them into labeled sets, ensuring a seamless experience for workshop participants. This was challenging since during corona we were stuck to working from home, so i literally transformed my room into a small production facility.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/3dp/printer_parts.JPG" title="3d printer kit" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    3D printer build kit
+</div>
+
+Several workshops were offered in schools, libraries, museums and other institutions. The participants ranged from school teachers, students, to engineers and architects. Using the build manual and some tips from me during the build workshops, the participants were able to build the 3d printers from scratch within 2 days and also start printing on the second day. This shows machine building, even though a complex endeavour, with the right build instrucitons and appropriately intuitive design, is doable and can be plenty of fun. Along the way, participants learn several aspects of machine building, electronics, mechanics etc.
+
 # Insert pictures of the printer being built in build workshops #
-
-
 
 
 <div class="row justify-content-sm-center">
