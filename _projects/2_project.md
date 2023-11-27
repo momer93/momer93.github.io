@@ -8,7 +8,9 @@ category: work
 giscus_comments: true
 ---
 
-<div class="row">
+The aim of this project was to carry out build workshops with the citizens of hamburg whereby an open source machine could be built from scratch over two days. The machine had to be a safe one and something that could be done with schools, libraries, makerspaces and other institutions. The safest personal production machine was chosen to be a 3d printer for its widescale adoption as almost a household appliance lately.
+
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3dp/printer_printing.jpg" title="Working printer" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -17,7 +19,7 @@ giscus_comments: true
     Printer printing
 </div>
 
-The aim of this project was to carry out build workshops with the citizens of hamburg whereby an open source machine could be built from scratch over two days. The machine had to be a safe one and something that could be done with schools, libraries, makerspaces and other institutions. The safest personal production machine was chosen to be a 3d printer for its widescale adoption as almost a household appliance lately.
+## Design ##
 
 Since there were already several good open source 3d printer designs on the internet, it was decided to use one and further develop it, than to start from scratch. The 3D printer design chosen was the thingiverse user [Scott_3D's hypercube evolution](https://www.thingiverse.com/thing:2254103) design which is an open source design with several community groups.
  
@@ -33,9 +35,13 @@ Since there were already several good open source 3d printer designs on the inte
     Left: Original printer design - Hypercube Evolution, Right: My modified design - Remocube
 </div>
 
- The selection of this design was based on its track record of successful replications, signifying its functionality and widespread popularity. In terms of function, its coreXY configuration enables swift movement of the print head along the X-Y plane. Moreover it uses a healthy combination of stiff aluminium slotted profiles to create a torsionally rigid box frame design, while the moving parts and brackets are from 3D printed PETG parts. With PETG used for the pd printed parts, it offers a higher stiffness and temperature resistance compared to more conventional PLA. The use of off the shelf aluminium profiles and 3d printing for the complex parts, meant parts could be easily sourced as well as manufactured at home or at a nearby makerspace. The rigid design mean't the frame could withstand high accelerations and decelerations without flexing.
+ The selection of this design was based on its track record of successful replications, signifying its functionality and widespread popularity. In terms of function, its coreXY configuration enables swift movement of the print head along the X-Y plane. Moreover it uses a healthy combination of stiff aluminium slotted profiles to create a torsionally rigid box frame design, while the moving parts and brackets are from 3D printed PETG parts. 
+ 
+ With PETG used for the pd printed parts, it offers a higher stiffness and temperature resistance compared to more conventional PLA. The use of off the shelf aluminium profiles and 3d printing for the complex parts, meant parts could be easily sourced as well as manufactured at home or at a nearby makerspace. The rigid design mean't the frame could withstand high accelerations and decelerations without flexing.
 
-The oiginal design had some problems that needed to be rectified before it could be used. The design was not enclosed, which mean't high temperature plastics like ABS that required a closed build chamber could not be printed without warping. Moreover, the open design meant, it posed a hazard for children since the printer would be used in schools. The bowden drive extruder did not allow the printing of flexible filaments since the extruder motor was mounted further away from the printhead, this mean't flexible filament would get compressed in the bowden tube and not be pushed through the hot end. The electronics were also outdated i.e. it used an 8-bit microcontroller, that could not process coreXY kinematics quick enough and also was limited to a 12V power supply, which would not be able to run the motors efficiently enough. Moreover the elctronics needed to be made safe i.e. any mains wiring had to completely sealed such that children could not by accident touch mains wiring.
+The oiginal design had some problems that needed to be rectified before it could be used. The design was not enclosed, which mean't high temperature plastics like ABS that required a closed build chamber could not be printed without warping. Moreover, the open design meant, it posed a hazard for children since the printer would be used in schools. The bowden drive extruder did not allow the printing of flexible filaments since the extruder motor was mounted further away from the printhead, this mean't flexible filament would get compressed in the bowden tube and not be pushed through the hot end. 
+
+The electronics were also outdated i.e. it used an 8-bit microcontroller, that could not process coreXY kinematics quick enough and also was limited to a 12V power supply, which would not be able to run the motors efficiently enough. Moreover the elctronics needed to be made safe i.e. any mains wiring had to completely sealed such that children could not by accident touch mains wiring.
 
 # insert my design pictures
 
