@@ -2,7 +2,7 @@
 layout: page
 title: The Frugal 3D printer
 description: Replicating an open source 3D printer in Oman
-img: assets/img/3dp/printer_lit.JPG
+img: assets/img/f3dp/f3dp2.png
 importance: 3
 category: work
 giscus_comments: true
