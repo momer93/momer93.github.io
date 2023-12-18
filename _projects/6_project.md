@@ -1,81 +1,21 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Advanced manufacturing process optimization
+description: Simulation and optimization of a rapid hot forging process.
+img: assets/img/rhfp/rhfp1.png
+importance: 7
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The aim of this project was to optimize a rapid hot forging process that was used to manufacture a geared seat recliner component. The part was required to deform with a certain ductility in order to decelerate the seat during a crash and as a result garantee the safety of the passenger. This mean't the part needed a tailored hardness and strength distribution, with the outer surface of the gear teeth being hard enough to withstand abrasion over an extended period of function and the root of the gear teeth to have sufficient ductility to deform during a crash instead of causing a sudden fracture.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The part was previously manufactured by fine blanking and later subjected to targeted heat treatment to achieve to required hardness and strength profile of the part. In order to make the process more efficient by including the heat treatment phase within the manufacturing phase, a new process was introduced, namely rapid plate forging. The process was still in its development phase and an accurate simulation model of the manufacturing process was required to better optimize the material flow and microstructure of the finished part. This is because, the process variables were difficult to observe or measure insitu, due to the high stresses and temperature within the forming region during the forming process.
 
----
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
+Forge NxT a commercial forging process simulator was used to simulate the forging prcess. The CAD model of the forming tools were imported into Hypermesh in order to simplify the design for simulation and perform a targetting meshing of the tool and workpiece to make the simulation efficient.
 
----
+To measure the durations of the forming process, several experiments were carried out to measure the exact heating and forming phase. Thermal cameras were used to measure the billet temperature before and after forming. The gear shape profile on the final part was measured on a CMM maschine, such that several profiles in step increments along the teeth height were measured with point clouds. This point cloud was exported in a CAD friendly form.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+The time durations within the process were entered into the simulation model and informed the process parameter input durations. The temperature profiles before and after forming along with the final formed part geometry were used to validate the simulation model results.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}

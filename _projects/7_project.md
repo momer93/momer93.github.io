@@ -1,21 +1,23 @@
 ---
 layout: page
-title: Advanced manufacturing process optimization
-description: Simulation and optimization of a rapid hot forging process.
-img: assets/img/rhfp/rhfp1.png
-importance: 7
+title: Fuel efficient vehicle design
+description: Designing and building a fuel efficient vehicle for the shell eco marathon competition
+img: assets/img/sem/x.png
+importance: 6
 category: work
 ---
 
-The aim of this project was to optimize a rapid hot forging process that was used to manufacture a geared seat recliner component. The part was required to deform with a certain ductility in order to decelerate the seat during a crash and as a result garantee the safety of the passenger. This mean't the part needed a tailored hardness and strength distribution, with the outer surface of the gear teeth being hard enough to withstand abrasion over an extended period of function and the root of the gear teeth to have sufficient ductility to deform during a crash instead of causing a sudden fracture.
+The shell eco marathon was the first long term project that I worked on during my bachelors in 2014 and 2015. The aim of the project was to design and build a fuel efficient vehicle whose ultimate aim was to minimize fuel consumption. As team leader and project manager, not only was I responsible for the technical execution of the project but also the overall project management. Through the project I learnt what it mean't to work with team members of different backgrounds, skills and motivations and to deliver a project on time. I was responsible for the design of the chassis, drivetrain, wheels, braking system and all manufacturing.
 
-The part was previously manufactured by fine blanking and later subjected to targeted heat treatment to achieve to required hardness and strength profile of the part. In order to make the process more efficient by including the heat treatment phase within the manufacturing phase, a new process was introduced, namely rapid plate forging. The process was still in its development phase and an accurate simulation model of the manufacturing process was required to better optimize the material flow and microstructure of the finished part. This is because, the process variables were difficult to observe or measure insitu, due to the high stresses and temperature within the forming region during the forming process.
+## Chassis
 
-Forge NxT a commercial forging process simulator was used to simulate the forging prcess. The CAD model of the forming tools were imported into Hypermesh in order to simplify the design for simulation and perform a targetting meshing of the tool and workpiece to make the simulation efficient.
-
-To measure the durations of the forming process, several experiments were carried out to measure the exact heating and forming phase. Thermal cameras were used to measure the billet temperature before and after forming. The gear shape profile on the final part was measured on a CMM maschine, such that several profiles in step increments along the teeth height were measured with point clouds. This point cloud was exported in a CAD friendly form.
-
-The time durations within the process were entered into the simulation model and informed the process parameter input durations. The temperature profiles before and after forming along with the final formed part geometry were used to validate the simulation model results.
+For our first competition I designed a welded aluminium hollow section chassis. Considering the low speeds of the vehicle and resulting low dynamic loads, the design focus in terms of the chassis was primarily to have a chassis that was resistant to static bending loads (due to weight) and dynamic twisting loads due to corners and braking. The profiles chosen were rectangular hollow aluminium profiles, primarily due to their high moment of inertia in bending plane along with aluminium's high strength to weight ratio which made it an optimum choice for large frames. The flat faces of the hollow profile compared to a circular section also made it easy to mount the other components onto the chassis.
 
 
+With our constant drive to achieve a lightweight design, for the second year I designed a fully carbon fibre monocoque chassis. Here 
 
+## Drivetrain
+
+## Project Management
+
+Use of excel ghannt charts and work packages to do the long term project managemt and trello to carry out the daily project management in an agile manner.

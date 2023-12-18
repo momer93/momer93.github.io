@@ -45,7 +45,7 @@ The electronics were also outdated i.e. it used an 8-bit microcontroller, that c
 
 # insert my design pictures
 
-To enhance it, I fully enclosed the structure with a temperature controlled build chamber. I modernized the electronics in that a 32 bit microcontroller was used, which mean't a 24V power supply could be used, which would allow the motors to run more efficiently. The print head was redesigned and a lightweight direct drive extruder with a small Nema14 pancake motor was mounted. This allowed the printhead to be as light as possible so that faster motion could be achieved by the coreXY setup. Since the design was enclosed, for a shorter printer height, a cable chain was required to route the cables from the printhead  to the electronics compartment. It also gave the printer a more refined look.
+To enhance it, I fully enclosed the structure with a temperature controlled build chamber. I modernized the electronics in that a 32 bit microcontroller was used, which mean't a 24V power supply could be used, which would allow the motors to run more efficiently. The print head was redesigned and a lightweight direct drive extruder with a small Nema14 pancake motor was mounted. This allowed the printhead to be as light as possible so that faster motion could be achieved by the coreXY setup. Since the design was enclosed, for a shorter printer height, a cable chain was required to route the cables from the printhead to the electronics compartment. It also gave the printer a more refined look.
 
 Shielded cables were used on the endstop cables, so that no interference would occur, which was a case with the previous optical endstops. In the original design 2 motors were used with the Z axis, with each motor shaft directly coupled to each lead screw with a flex coupler. The direct coupling of the motors to the Z-axis leadscrews meant, vibrations were transmitted directly to the build plate, introducing wave like patterns on the 3d printed parts surface. This was replaced with a single Z motor that transmitted the motion by a closed belt to both the Z lead screws simultaneously. This allowed the Z axis lead screws to move in sync and also removed the vibrations to the bed by the belt drive.
 
@@ -66,30 +66,8 @@ Conducting ten such workshops across multiple institutions in Hamburg, I persona
     3D printer build kit
 </div>
 
-Several workshops were offered in schools, libraries, museums and other institutions. The participants ranged from school teachers, students, to engineers and architects. Using the build manual and some tips from me during the build workshops, the participants were able to build the 3d printers from scratch within 2 days and also start printing on the second day. This shows machine building, even though a complex endeavour, with the right build instrucitons and appropriately intuitive design, is doable and can be plenty of fun. Along the way, participants learn several aspects of machine building, electronics, mechanics etc.
+Several workshops were offered in schools, libraries, museums and other institutions. The participants ranged from school teachers, students, to engineers and architects. Using the build manual and some tips from me during the build workshops, the participants were able to build the 3d printers from scratch within 2 days and also start printing on the second day. This shows machine building, even though a complex endeavour, with the right build instructions and appropriately intuitive design, is doable and can be plenty of fun. Along the way, participants learn several aspects of machine building, electronics, mechanics etc.
 
 # Insert pictures of the printer being built in build workshops #
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
-
-
-Even though the design was affordable at about 650 Euros for the whole kit and was relatively easy to replicate. When exploring its replicaiton in Oman, it turned out to be really difficult to source most of the components locally. The electronics could be imported from china via aliexpress. However to import heavier parts such as the slotted aluminium profiles was prohibitively expensive. Therefore the design had to be slightly adapted in order to be replicated in Oman. The only possibility was to use steel square hollow sections. The problem here was assembling firstly the frame together and then mounting the various components on the frame. For the slotted aluminium profile this was rather easy, since any part could be mounted along any of the profile faces by simply inserting a so called hammer nut. With the lack of this slot on the steel profiles, a new method of mounting everything would have to be derived.
-
-An initial design idea was to drill through holes on every connecting point and to use custom made L brackets to connect the frame profiles together. This method however required many accurately drilled holes on all the frame profiles and was very time consuming. The holes were made slightly bigger than the bolt size, so for M6 bolts, the holes were 7mm in diameter. This would allow the frame profiles to be adjusted during assembly incase the holes were not accurately spaced. This 
+ 
