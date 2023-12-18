@@ -2,7 +2,7 @@
 layout: page
 title: Advanced manufacturing process optimization
 description: Simulation and optimization of a rapid hot forging process.
-img: assets/img/rhfp/rhfp1.png
+img: assets/img/amps/forming_simulation.gif
 importance: 7
 category: work
 ---
