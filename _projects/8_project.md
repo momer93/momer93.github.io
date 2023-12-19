@@ -8,11 +8,32 @@ category: work
 giscus_comments: true
 ---
 
-This project was a result of a comparative research project whereby I was exploring the concept of replicability of open source machine tools using the case study of the peviously used 3D printer design. The project was carried out to empirically determine the challenges to replicating a fully open source design in a resource constrained context. 
+This project was a result of a comparative research project whereby I was exploring the concept of replicability of open source machine tools using the case study of the peviously used 3D printer design. The project was carried out to empirically determine the challenges to replicating a fully open source design in a resource constrained context.
 
-Even though the design was affordable in Germany at about 650 Euros for the whole kit and was relatively easy to replicate. When exploring its replicaiton in Oman, it turned out to be really difficult to source most of the components locally. The electronics and small hardware components could be imported from China via aliexpress. However, to import heavier parts such as the slotted aluminium profiles was prohibitively expensive whereby shipping alone costed 2 times the parts price. 
+Even though the design was affordable in Germany at about 650 Euros for the whole kit and was relatively easy to replicate. When exploring its replicaiton in Oman, it turned out to be really difficult to source most of the components locally. The electronics and small hardware components could be imported from China via aliexpress. However, to import heavier parts such as the slotted aluminium profiles was prohibitively expensive whereby shipping alone costed 2 times the parts price.
 
-Therefore the design had to be slightly adapted in order for the machine to be replicated in Oman. The only available local alternative was to use steel square hollow sections. The problem here was assembling firstly the frame together and then mounting the various components on the frame. For the slotted aluminium profile this was rather easy, since any part could be mounted along any of the profile faces by simply inserting a so called hammer nut. With the lack of this slot on the steel profiles, a new method of mounting everything would have to be derived.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/f3dp/buying_profiles_china.png" title="Buying alu profiles from china" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Cost of importing aluminium slotted profiles for the 3d printer from china
+</div>
+
+Therefore, the design had to be slightly adapted in order for the machine to be replicated in Oman. The only available local alternative was to use steel square hollow sections. The problem here was assembling firstly the frame together and then mounting the various components on the frame. For the slotted aluminium profile this was rather easy, since any part could be mounted along any of the profile faces by simply inserting a so-called hammer nut. Moreover the frame could be completely put together without drilling any holes. With the lack of this slot on the steel profiles, a new method of mounting everything would have to be derived.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/f3dp/frame_004.png" title="frame" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/f3dp/View54.png" title="Mounting part on frame" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: T slotted profiles assembly of frame, Right: Mounting components on frame with hammer nuts
+</div>
 
 The first iteration of the frame fabrication involved welding the frame together using the same dimensions as the original slotted profile design. Even though warping is normally a concern with welding, done with the right jigs, tools and technique, warping can be avoided. On asking the microenterprise workers if they could weld the frame together according to the dimensions without any warp, they said they could since they welded frames all day long.
 
