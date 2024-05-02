@@ -44,7 +44,7 @@ The project was started by carrying our a field visit to manufacturing microente
     Interviewing owners and workers from various steel fabrication microenterprises in Oman.
 </div>
 
-When asked about the need for more automated machines, they often complained about the lack of space because they imagined CNC or automated machine tools must be really big as industrial machines normally are. Most small shops had 2-3 workers and none of the workshops observed had any CNC machine tools. Those that did possess machine tools, these were usually manual lathes that were often purchased used. None of them carried out precision work, so they usually produced structural (car park shades, warehouses etc) and non structural items (gates, staircases, railings, furniture etc.) None of them had access to CNC machine tools and had no idea about CAD or CAM. A few pictures of such open air workshops below.
+When asked about the need for more automated machines, they often complained about the lack of space because they imagined CNC or automated machine tools must be really big as industrial machines normally are. Most small shops had 2-3 workers and none of the workshops observed had any CNC machine tools. Those that did possess machine tools, these were usually manual lathes that were often purchased used. None of them carried out precision work, so they usually produced structural (car park shades, warehouses etc) and non-structural items (gates, staircases, railings, furniture etc.) None of them had access to CNC machine tools and had no idea about CAD or CAM. A few pictures of such open air workshops below.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -61,9 +61,11 @@ When asked about the need for more automated machines, they often complained abo
     Pictures of some steel fabrication workshops in Oman
 </div>
 
-As a next step various manufacturing processes within such workshops were observed to determine possible processes that could be automated. Gas cutting was chosen due to its potential for increased efficiency and productivity for the users. From the interviews it was revealed that due to the lack of space, users would prefer something that could be easily stowed away when not needed and most importantly they needed their the machine to be as cheap as possible. Many estimated that they would be able to afford the machine if it were to cost between 500 and 800 USD. Bigger shops that had more employees and access to bigger jobs had a higher budget of about 1500-2000 USD.Next functional requirements were derived depending on the surveyed local resources from local shops such as available raw materials and other mechanical and electronic components. 
+As a next step various manufacturing processes within such workshops were observed to determine possible processes that could be automated. Gas cutting was chosen due to its potential for increased efficiency and productivity for the users. From the interviews it was revealed that due to the lack of space, users would prefer something that could be easily stowed away when not needed and most importantly they needed the machine to be as cheap as possible. Many estimated that they would be able to afford the machine if it were to cost between 500 and 800 USD. Bigger shops that had more employees and access to bigger jobs had a higher budget of about 1500-2000 USD. Next functional requirements were derived depending on the surveyed local resources from local shops such as available raw materials and other mechanical and electronic components.
 
-The biggest constraints for this project were the materials and components availability. Starting with the frame, the cheapest materials available was mild steel hollow sections, rolled profiles and plates. Aluminum was almost impossible to find. There were no online platforms or shops that listed  Oman doesn't really have marketplaces for hobby components like electronics, motors or other components required for machine building. Online stores do exist but they are mainly selling consumer appliances.  This means it is almost impossible to find parts for building smaller machines such as M3 and smaller screws or other standard machine elements. There are new stores coming up to cater to the needs of spare parts for chinese machine tools that many are importing from China. However, these are more for industrial scale machines. The only way was to visit several local shops and make a list of commonly available materials. I listed these on an excel sheet along with their prices. This list constrained my available materials for use in the design. Next on discussions with the workshop workers and owner, we found there were a select few profiles, plates or bars that were often in surplus in the workshops since they used these often for fabrication jobs. They would prefer to use these than to have to buy one off exotic profiles. These field searches and discussions with the end user helped inform the choice of materials and parts for the design.
+The biggest constraints for this project were the materials and components availability. Starting with the frame, the cheapest materials available was mild steel hollow sections, rolled profiles and plates. Aluminum was almost impossible to find. Oman doesn't really have marketplaces for hobby components like electronics, motors or other components required for machine building. Online stores do exist but they are mainly selling consumer appliances.
+
+This means it is almost impossible to find parts for building smaller machines such as M3 and smaller screws or other standard machine elements. There are new stores coming up to cater to the needs of spare parts for chinese machine tools that many are importing from China. However, these are more for industrial scale machines. The only way was to visit several local shops and make a list of commonly available materials. I listed these on an excel sheet along with their prices. This list constrained my available materials for use in the design. Next on discussions with the workshop workers and owner, we found there were a select few profiles, plates or bars that were often in surplus in the workshops since they used these often for fabrication jobs. They would prefer to use these than to have to buy one off exotic profiles. These field searches and discussions with the end user helped inform the choice of materials and parts for the design.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -78,7 +80,7 @@ The design started with paper sketches, internet searches and some rough calcula
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc5.png" title="Linear carriage model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/x2.png" title="Linear carriage model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -89,7 +91,7 @@ The Z axis setup was the most complex part of the machine since a typical manual
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc6.png" title="Z axis model" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/x3.png" title="Z axis model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
