@@ -2,7 +2,7 @@
 layout: page
 title: Custom GCODE generator
 description: An easy to use GCODE generator for a CNC gas cutter
-img: assets/img/
+img: assets/img/gcodegen/GUI_1.png
 importance: 3
 category: work
 giscus_comments: true
