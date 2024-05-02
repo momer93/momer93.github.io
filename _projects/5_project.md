@@ -2,7 +2,7 @@
 layout: page
 title: A frugal CNC Router
 description: A low cost and frugal design of a large format CNC router
-img: assets/img/cncrout/router.png
+img: assets/img/cncrout/router.jpg
 importance: 4
 category: work
 ---
