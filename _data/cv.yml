@@ -18,22 +18,18 @@
         - Mechanical Engineering
         - Frugal Machine Tool Design
         - Open Source Hardware
-        - title: TBD
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: Master's Degree
       institution: Technical University of Dortmund, Dortmund, Germany
       year: 2018
       description:
         - Mechanical Engineering
-        - Thesis: Design and Development of Conformal Cooling Channels for a Rapid Hot Forging Die
+        - Thesis title: Design and Development of Conformal Cooling Channels for a Rapid Hot Forging Die
     - title: Bachelor's Degree
       institution: German University of Technology , Muscat, Oman
       year: 2015
       description:
         - Mechanical Engineering
-        - Thesis title - Design and Analysis of a composite chassis for the shell eco marathon prototype vehicle 2015
+        - Thesis title: Design and Analysis of a composite chassis for the shell eco marathon prototype vehicle 2015
 
 - title: Experience
   type: time_table
@@ -42,19 +38,25 @@
       institution: Airbus, Hamburg, Germany
       year: 2019 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Creation of standard assembly instructions for manufacturing, production and assembly processes in the mechanical, hydraulic and electrical equipment installation within Airbus A320 family of aircraft
+        - Torquing procedure analysis in aircraft assembly
+        - Driving forward Lean and 5S practices
+        - Detection and assessment of non-conformities
     - title: Graduate Research Engineer
       institution: Faurecia Autositz GmBH (now Forvia)
       year: 2018 - 2019
       description:
-        - Description 1.
-        - Description 2.
-
+        - Building and optimizing a hot forging simulation in FORGE NXT
+        - Simulation of forces occurring in the tool during the forming process
+        - Selection of suitable additive manufacturing processes and materials
+        - Cost-effectiveness analysis of additive-manufactured tools in comparison to conventional tools
+        - Developing a multi-physics fluid-thermal coupled simulation in LS-Dyna for cooling channels
+        - CAD models preparation and meshing in HYPERMESH
+        - Modeling of conformal cooling channels in CATIA V5
+        - Feasibility study on additive manufacturing potential in forging dies
+        - Running Simulations in Linux-based Cluster with script automation
+        - Experimental validation of simulation models
+        - Attended a workshop on Multiphysics simulations from DYNAMORE in Stuttgart
 
 - title: Open Source Projects
   type: time_table
@@ -66,6 +68,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2015
+      items:
+        - Dean's award for highest score in University
     - year: 2011 - 2015
       items: 
         - DAAD Bachelors Scholarship
@@ -79,10 +84,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Frugal Engineering.
+    - title: Design for the developing world.
       items: 
         - Frugal design of open source machine tools.
         - Designing for low resource contexts.
+        - Design for 'X' - Affordability, manufacturing, assembly, replication etc.
 
 - title: Other Interests
   type: list
