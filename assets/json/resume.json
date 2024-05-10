@@ -30,8 +30,8 @@
       "endDate": "present",
       "summary": "I coordinate the Open Lab Starter Kit project with a budget of 2 Million euros and carry out my own research on frugal design of open source machine tools",
       "highlights": [
-        "Teaching the courses of Manufacturing technology (Bachelor) and Manufacturing Machine tools (Master) "
-        "Carry out workshops on digital fabrication topics"
+        "Teaching the courses of Manufacturing technology (Bachelor) and Manufacturing Machine tools (Master)",
+        "Carry out workshops on digital fabrication topics",
         "Published my work on several internation conferences and journals"
       ]
     }
@@ -44,7 +44,7 @@
       "endDate": "2021",
       "summary": "I worked on creating assembly documentation of mechanical, hydraulic and electrical wiring of airbus commercial aircraft",
       "highlights": [
-        "I got to learn the insides of complex manufacturing systems within the aerospace sector"
+        "I got to learn the insides of complex manufacturing systems within the aerospace sector",
         "Working in the manufacturing division, I gained valuable practical shopfloor experience"
       ]
     }
@@ -57,16 +57,16 @@
       "endDate": "2019",
       "summary": "I worked on creating assembly documentation of mechanical, hydraulic and electrical wiring of airbus commercial aircraft",
       "highlights": [
-        "Building and optimizing a hot forging simulation in FORGE NXT"
-        "Simulation of forces occurring in the tool during the forming process"
-        "Selection of suitable additive manufacturing processes and materials"
-        "Cost-effectiveness analysis of additive-manufactured tools in comparison to conventional tools"
-        "Developing a multi-physics fluid-thermal coupled simulation in LS-Dyna for cooling channels"
-        "CAD models preparation and meshing in HYPERMESH"
-        "Modeling of conformal cooling channels in CATIA V5"
-        "Feasibility study on additive manufacturing potential in forging dies"
-        "Running Simulations in Linux-based Cluster with script automation"
-        "Experimental validation of simulation models"
+        "Building and optimizing a hot forging simulation in FORGE NXT",
+        "Simulation of forces occurring in the tool during the forming process",
+        "Selection of suitable additive manufacturing processes and materials",
+        "Cost-effectiveness analysis of additive-manufactured tools in comparison to conventional tools",
+        "Developing a multi-physics fluid-thermal coupled simulation in LS-Dyna for cooling channels",
+        "CAD models preparation and meshing in HYPERMESH",
+        "Modeling of conformal cooling channels in CATIA V5",
+        "Feasibility study on additive manufacturing potential in forging dies",
+        "Running Simulations in Linux-based Cluster with script automation",
+        "Experimental validation of simulation models",
         "Attended a workshop on Multiphysics simulations from DYNAMORE in Stuttgart"
       ]
     }
