@@ -89,11 +89,11 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Frugal Engineering.
       items: 
         - Description 1.
         - Description 2.
-    - title: Topic 2.
+    - title: Design for Low Resource Contexts.
       items:
         - Description 1.
         - Description 2.
