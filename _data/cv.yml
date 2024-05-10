@@ -65,6 +65,21 @@
       year: 2021
       description: An open source 3D printer made as a remix of the popular Hypercube evolution.
 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Designing for the developing world.
+      items: 
+        - Frugal design of open source machine tools.
+        - Designing for low resource contexts.
+        - Designing for low digital literacy
+        - Design for 'X'
+      sub items:
+        - Affordability
+        - Manufacturing
+        - Assembly
+        - Replicability
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -81,14 +96,6 @@
       items:
         - 2x Mittelbau Research Abroad Scholarship
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Design for the developing world.
-      items: 
-        - Frugal design of open source machine tools.
-        - Designing for low resource contexts.
-        - Design for 'X' - Affordability, manufacturing, assembly, replication etc.
 
 - title: Other Interests
   type: list
