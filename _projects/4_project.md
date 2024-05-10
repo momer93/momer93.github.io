@@ -3,7 +3,7 @@ layout: page
 title: Incremental Forming
 description: Incremental forming of PVC
 img: assets/img/spif/spif1.png
-importance: 3
+importance: 8
 category: work
 ---
 

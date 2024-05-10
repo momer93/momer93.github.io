@@ -3,14 +3,14 @@ layout: page
 title: The Frugal 3D printer
 description: Replicating an open source 3D printer in Oman
 img: assets/img/f3dp/f3dp2.png
-importance: 3
+importance: 4
 category: work
 giscus_comments: true
 ---
 
-This project was a result of a comparative research project whereby I was exploring the concept of replicability of open source machine tools using the case study of the peviously used 3D printer design. The project was carried out to empirically determine the challenges to replicating a fully open source design in a resource constrained context.
+This project was a result of a comparative research project whereby I was exploring the concept of replicability of open source machine tools using the case study of the Remocube 3D printer, developed in a previous project. The project was carried out to empirically determine the challenges to replicating a fully open source design in a resource constrained context.
 
-Even though the design was affordable in Germany at about 650 Euros for the whole kit and was relatively easy to replicate. When exploring its replicaiton in Oman, it turned out to be really difficult to source most of the components locally. The electronics and small hardware components could be imported from China via aliexpress. However, to import heavier parts such as the slotted aluminium profiles was prohibitively expensive whereby shipping alone costed 2 times the parts price.
+Even though the design was affordable in Germany at about 650 Euros for the whole kit and was relatively easy to replicate. When exploring its replicaiton in Oman, it turned out to be significantly more difficult to source most of the components. The electronics and small hardware components could be imported from China via aliexpress. However, to import heavier parts such as the slotted aluminium profiles was prohibitively expensive whereby shipping alone costed 2 times the parts price.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
