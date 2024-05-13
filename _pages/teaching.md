@@ -21,7 +21,7 @@ giscus_comments: true
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          541
+          FETE
         </span>
       </div>
     </div>
