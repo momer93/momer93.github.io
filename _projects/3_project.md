@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Semi-automatic watering system
-description: another without an image
+description: A esp32 powered remote moisture level sensing and watering system
 img: /assets/img/hobby/esp32_watering/pw9.jpg
 importance: 3
 category: fun
 ---
 
-The watering setup uses an esp32 microcontroller board which is connected to a 8 channel relay board. The relays switch on 5V water pumps via buttons on a smartphone app. Soil moisture sensors are also connected to the plants that measure the soil moisture at regular intervals and show it as a percentage on the app. The ESP32 is connected to the home wifi and also added to the software homeassisstant which is installed on a raspberry pi central hub. The raspberry pi acts like a central hub and the esp32 as a node.
+The plants watering setup uses an esp32 microcontroller board which is connected to a 8 channel relay board. The relays switch on 5V water pumps via buttons on a smartphone app.  Soil moisture sensors are also connected to the plants that measure the soil moisture at regular intervals and show it as a percentage on the app. A temperature and humidity sensor namely he DHT11 is also installed to collect weather data. The ESP32 is connected to the home wifi and also added to the software Homeassisstant which is installed on a raspberry pi central hub. The raspberry pi acts like a central hub and the esp32 as a node.
 
 The reason I built this was becaue I found it really cumbersome begging my neighbour to water my plants, every time I was away from home for over a month. So i decided to build one with really cheap with off the shelf components. I didn't want a system that would water my plants completely automatically, I actually wanted to water them myself depending on which plant actually needed it. Depending on the soil moisture readings, I pressed a button on the app and this switched on the pumps for a set duration of time and so I had full control and also enjoyed watering my plants, as I was in another country.
 
@@ -15,14 +15,11 @@ I designed the enclosure and electronics mounts in Onshape. The esp32 casing was
 
 TailVPN was used to connect to my home internet when I was outside my home WiFi. This allowed med to water my plants when I was on vacation for 2 months.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The esphome code for the project is below. I have covered some keys and passwords.
 
 {% raw %}
-```esp32
-Initial Code:
+```C++
+ESP32 Home code
 
 esphome:
   name: esphome-web-######

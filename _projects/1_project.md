@@ -19,11 +19,9 @@ related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/121
     Picture of the machine working
 </div>
 
-A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for small fabrication microenterprises in Oman. The design objective was to automate the oxyfuel cutting process that is commonly used in steel fabrication workshops around the world. The main design constraints were the cost, spatial constraints, use of local materials and local manufacturing capability.
+A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for small fabrication microenterprises in Oman. The design objective was to automate the oxyfuel cutting process that is commonly used in steel fabrication workshops around the world. The main design constraints were the cost, use of local materials and manufacturing capabilities.
 
-## insert picture of a hand held oxyfuel cutter ##
-
-The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from resouces locally available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The cnc gas cutter design was chosen to explore the potential of frugally designed open source machine for its impact potential on the one hand and on the other hand to shed light on how frugal design for such resource constrained settings can work and what challenges can be faced.
+The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from resouces locally available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The cnc oxyfuel cutter design was chosen to explore the potential of frugally designed open source machine tools for its impact potential on the one hand and on the other hand to shed light on how frugal design for such resource constrained settings can work and what challenges would be faced.
 
 The first proof of concept that was built in Oman was a low fidelity prototype. This was done to keep costs low and figure out the viability of the design quickly. The machine frame is made from standard 2" (50mm) square steel profiles which are usually in surplus in such workshops. The mechanical and electronic components are typical 3d printer components and were chosen due to their affordability and availability. 
 
