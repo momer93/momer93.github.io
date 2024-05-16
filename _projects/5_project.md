@@ -7,11 +7,20 @@ importance: 3
 category: work
 ---
 
+- This is a low cost design for a CNC router designed to be as minimalistic as possible and can mill standard full sized sheets of wood, dibond, plastics etc.
+- The key constraints for the design were affordability, use of local materials and the other typical engineering constraints such as reliability, robustness etc.
+- However, owing to the fact that the machine was to be easily replicated by microenterprises in resource constrained settings, design for manufacturing and assembly had to also be considered
+- Large format CNC routers that can accomodate an entire standard sheet (2.4m x 1.2m) are typically used in carpentry and signboards making where a milling cutter is used to either cut out shapes from dibond or plastic or as well as engrave complex designs in wood
+- For the microenterprise involved in the case study, their aim was to capture more of the value chain of signboards fabrication.
+- Currently they only manufacture the steel frame of the signboards, with the problem being the job is at the base of the value chain and so the least profitable
+- Also since many fabrication microenterprises can already do it along with freelance workers who can do such jobs in the open with just a welding machine, the market rate for such jobs is very low
+- The idea was to capture more of the value chain by being able to manufacture the individual letters, which would be impossible without access to a CNC router due to the complexity of the shapes involved
+- Moreover when they do get jobs for signboards where they would have to cut out oval shapes or shapes of arrows from dibond sheet (aluminium-ABS sandwich panel), the task of marking the sheet and cutting it out with hand tools is tedious and not aesthetic, whereby they have recieved complaints from the customer that the work is not presentable
+- There are no local producers of CNC routers and locally available ones are imports from China which are much too expensive for themn to afford
+- Moreover the machines are also overly bulky and rigid, which is impossible to accomodate in their small shops.
+- Therefore they were looking for an affordable as well as a portable machine that they could stow away when not being used
 
-<!-- 
-
-
-
+- The design of the CNC router was essentially an adaptation of the frugal oxyfuel cutter (put hyperlink to the gas cutter page here) design, whereby the frame and linear motion setup is the same.
 ---
 layout: page
 title: project

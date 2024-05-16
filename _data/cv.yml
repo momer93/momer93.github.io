@@ -15,7 +15,8 @@
       institution: University of the Federal Armed Forces, Hamburg, Germany
       year: 2025
       description:
-        - Mechanical Engineering
+        - Lead project coordinator for the OLSK project
+        - Supervise bachelor and master thesis
         - Frugal Machine Tool Design
         - Open Source Hardware
     - title: Master's Degree
@@ -23,13 +24,14 @@
       year: 2018
       description:
         - Mechanical Engineering
-        - Thesis title: Design and Development of Conformal Cooling Channels for a Rapid Hot Forging Die
+        - Thesis title - Design and Development of Conformal Cooling Channels for a Rapid Hot Forging Die
     - title: Bachelor's Degree
       institution: German University of Technology , Muscat, Oman
       year: 2015
       description:
         - Mechanical Engineering
-        - Thesis title: Design and Analysis of a composite chassis for the shell eco marathon prototype vehicle 2015
+        - Lead engineer and project manager for the shell eco marathon vehicle design project
+        - Thesis title - Design and Analysis of a composite chassis for the shell eco marathon prototype vehicle 2015
 
 - title: Experience
   type: time_table
@@ -57,6 +59,19 @@
         - Running Simulations in Linux-based Cluster with script automation
         - Experimental validation of simulation models
         - Attended a workshop on Multiphysics simulations from DYNAMORE in Stuttgart
+    - title: Lead Engineer and Project Manager
+      institution: Shell Eco Marathon Vehicle Design Competition
+      year: 2014 - 2016
+      description:
+
+    - title: Lead Engineer and Project Manager
+      institution: Shell Eco Marathon Vehicle Design Competition
+      year: 2014 - 2016
+      description:
+        - Coordinated a 10 student team to Designing and building a fuel efficient vehicle
+        - Manufacturing, chassis & drivetrain design Lead
+        - Secured 5th position Asiawide and 1st position in
+        
 
 - title: Open Source Projects
   type: time_table

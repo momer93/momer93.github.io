@@ -144,6 +144,7 @@ giscus_comments: true
   </div>
 </div>
 
+<h3 style="color: #4b9cd3;" id="MIT"><a href="https://www.mit.edu/">MIT</a></h3>
 <!-- Rapid-Prototyping of Rapid-Prototyping Machines -->
 <div class="card mt-3">
   <div class="p-3">
