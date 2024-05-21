@@ -136,7 +136,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I offer workshops for children aged 8 - 16 on various topics of digital fabrication such as 3D printing, CAD design, 2D graphics, laser cutting, basic electronics and programming. These workshops are offered in the form of interesting ideas such that 
+            I offer workshops for children aged 8 - 16 on various topics of digital fabrication such as 3D printing, CAD design, 2D graphics, laser cutting, basic electronics and programming. These workshops are offered in each session with a theme for instance designing cookie cutter before christmas, designing and building an led lit acrylic stand, an obstable avoiding robot etc.
           </div>
         </div>
       </li>
@@ -164,7 +164,7 @@ How to Make Something that Makes (almost) Anything</a></h5>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I had a cameo appearance here where i gave a short (10 minutes) lecture on the concept of accessibility for machine tools, based on my PhD work on the topic.
+            I gave a short (10 minutes) lecture on the concept of accessibility for machine tools, based on my PhD work on the topic during Professor Gerschenfelds class of machine design at MIT. My part starts at minute 40 on the attached video link.
           </div>
           <div class="col-sm-3">
             <a href="https://fab.cba.mit.edu/classes/865.24/topics/usability_acc_sus/book/accessibility.html">Accessibility</a>&nbsp;(<a href="https://vimeo.com/944675088">Lecture Video</a>)        

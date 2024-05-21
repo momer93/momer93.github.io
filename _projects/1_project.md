@@ -8,20 +8,25 @@ category: work
 related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/12154
 ---
 
-# CNC Oxyfuel Cutter #
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc1.JPG" title="CNC gas cutter in action" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gas_cutter_cad.png" title="CNC gas cutter in action" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Picture of the machine working
 </div>
 
-A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for small fabrication microenterprises in Oman. The design objective was to automate the oxyfuel cutting process that is commonly used in steel fabrication workshops around the world. The main design constraints were the cost, use of local materials and manufacturing capabilities.
+*insert picture of gas cutter CAD model
 
-The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being ultra affordable while being able to be built from resouces locally available to the microenterprises. Therefore this isn't a design for everyone but really tailored to be reproduced in Oman with simple tools and components. The cnc oxyfuel cutter design was chosen to explore the potential of frugally designed open source machine tools for its impact potential on the one hand and on the other hand to shed light on how frugal design for such resource constrained settings can work and what challenges would be faced.
+A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for metal fabrication microenterprises. Such microenterprises often fabricate metal structural and non-structural goods such as warehouses, car park shades, furniture, signage and custom parts. An oxyfuel cutter is one of the oldest cutting processes used in the steel industry and is used to cut metal plates ranging from 4 mm up to 50+ mm thick. Parts cut out are often simple shapes such as circles, triangles and rectangles. Even though oxyfuel cutting has been mechanized in industry, such machines are usually much too expensive, locally unavailable and often overengineered for the needs of small microenterprises.
+
+During field visits to several such microenterprises, it was noticed that when repetitive parts were required that were not simple rectangles, such as circles or more complex shapes such as stiffeners. The workers went through a tedious process of cutting out a template out of thin sheet metal, transferring the template marking onto the metal plate with chalk, followed by manual gas cutting using a hand held oxyfuel cutter and finally post-processing. The part edges were often uneven with excessive dross. This had to often be corrected by extensive grinding using a hand held grinder. Therefore, the cutting process was often tedious, time consuming and mundane. With some workers revealing stories of gas explosions while cutting, the process was also dangerous.
+
+In terms of increased efficiency and reducing manual labour, the gas cutting process was determined to benefit from process automation. Next interviews were carried out with the end users of what they envisioned for such an automated oxyfuel cutter. The requirements for smaller shops compared to bigger shops were slightly different. Smaller shops often had very little space in the shop and did not often have jobs that needed the cutting of multiple plates. Such shops often wanted just the cheapest possible machine (max budget 500 euros), with portability or the function of stowing away to be important. Slightly bigger shops were willing to spend more for reliability and quality and were willing to spend up to 3000 euros.
+
+
+The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being affordable while being able to be built from resources locally available to the microenterprises. The cnc oxyfuel cutter design was chosen to explore the potential of frugally designed open source machine tools for its impact potential on the one hand and on the other hand to shed light on how frugal design for such resource constrained settings can work and what challenges would be faced.
 
 The first proof of concept that was built in Oman was a low fidelity prototype. This was done to keep costs low and figure out the viability of the design quickly. The machine frame is made from standard 2" (50mm) square steel profiles which are usually in surplus in such workshops. The mechanical and electronic components are typical 3d printer components and were chosen due to their affordability and availability. 
 
