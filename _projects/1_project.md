@@ -14,23 +14,27 @@ related_publications: 10.1007/978-3-031-28839-5_97, https://doi.org/10.15488/121
     </div>
 </div>
 <div class="caption">
-    Picture of the machine working
+    Cad model of the CNC oxyfuel cutter
 </div>
-
-*insert picture of gas cutter CAD model
 
 A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was designed for metal fabrication microenterprises. Such microenterprises often fabricate metal structural and non-structural goods such as warehouses, car park shades, furniture, signage and custom parts. An oxyfuel cutter is one of the oldest cutting processes used in the steel industry and is used to cut metal plates ranging from 4 mm up to 50+ mm thick. Parts cut out are often simple shapes such as circles, triangles and rectangles. Even though oxyfuel cutting has been mechanized in industry, such machines are usually much too expensive, locally unavailable and often overengineered for the needs of small microenterprises.
 
-During field visits to several such microenterprises, it was noticed that when repetitive parts were required that were not simple rectangles, such as circles or more complex shapes such as stiffeners. The workers went through a tedious process of cutting out a template out of thin sheet metal, transferring the template marking onto the metal plate with chalk, followed by manual gas cutting using a hand held oxyfuel cutter and finally post-processing. The part edges were often uneven with excessive dross. This had to often be corrected by extensive grinding using a hand held grinder. Therefore, the cutting process was often tedious, time consuming and mundane. With some workers revealing stories of gas explosions while cutting, the process was also dangerous.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gcp/gc14.jpg" title="Workshop_1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gcp/gc15.jpg" title="Workshop_2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gcp/gc16.jpg" title="Workshop_3" class="img-fluid rounded z-depth-1" %}
+</div>
+</div>
+<div class="caption">
+    Pictures of some steel fabrication microenterprises in Oman
+</div>
 
-In terms of increased efficiency and reducing manual labour, the gas cutting process was determined to benefit from process automation. Next interviews were carried out with the end users of what they envisioned for such an automated oxyfuel cutter. The requirements for smaller shops compared to bigger shops were slightly different. Smaller shops often had very little space in the shop and did not often have jobs that needed the cutting of multiple plates. Such shops often wanted just the cheapest possible machine (max budget 500 euros), with portability or the function of stowing away to be important. Slightly bigger shops were willing to spend more for reliability and quality and were willing to spend up to 3000 euros.
-
-
-The machine was designed to be as affordable as possible while being reliable enough to function in the harsh environments seen in Oman. The design is focused on being affordable while being able to be built from resources locally available to the microenterprises. The cnc oxyfuel cutter design was chosen to explore the potential of frugally designed open source machine tools for its impact potential on the one hand and on the other hand to shed light on how frugal design for such resource constrained settings can work and what challenges would be faced.
-
-The first proof of concept that was built in Oman was a low fidelity prototype. This was done to keep costs low and figure out the viability of the design quickly. The machine frame is made from standard 2" (50mm) square steel profiles which are usually in surplus in such workshops. The mechanical and electronic components are typical 3d printer components and were chosen due to their affordability and availability. 
-
-The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. They seldom had the time to work on such projects due to working 6 days a week, 12 hours each day. This mean't they rarely had free time and therefore it was imperative to find a company that would be willing to help with the build during their work hours.
+During field visits to several such microenterprises, it was noticed that when repetitive parts were required that were not simple rectangles, such as circles or more complex shapes such as stiffeners. The workers went through a tedious process of cutting out a template out of thin sheet metal, transferring the template marking onto the metal plate with chalk, followed by manual gas cutting using a hand held oxyfuel cutter and finally post-processing. The part edges were often uneven with excessive dross. This had to often be corrected by extensive grinding using a hand held grinder. Therefore, the cutting process was often tedious, time consuming and mundane. With some workers revealing stories of gas explosions while cutting, the process was also dangerous. In terms of increased efficiency and reducing manual labour, the gas cutting process was determined to benefit from process automation. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,22 +51,15 @@ The project was started by carrying our a field visit to manufacturing microente
     Interviewing owners and workers from various steel fabrication microenterprises in Oman.
 </div>
 
-When asked about the need for more automated machines, they often complained about the lack of space because they imagined CNC or automated machine tools must be really big as industrial machines normally are. Most small shops had 2-3 workers and none of the workshops observed had any CNC machine tools. Those that did possess machine tools, these were usually manual lathes that were often purchased used. None of them carried out precision work, so they usually produced structural (car park shades, warehouses etc) and non-structural items (gates, staircases, railings, furniture etc.) None of them had access to CNC machine tools and had no idea about CAD or CAM. A few pictures of such open air workshops below.
+Next interviews were carried out with the end users to determine what they envisioned for such an automated oxyfuel cutter. The requirements for smaller shops compared to bigger shops were slightly different. Smaller shops often had very little space in the shop and did not often have jobs that needed the cutting of multiple plates. Such shops often wanted just the cheapest possible machine (max budget 500 euros), with portability or the function of stowing away to be important. Slightly bigger shops were willing to spend more for reliability and quality and were willing to spend up to 3000 euros.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc14.jpg" title="Workshop_1" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc15.jpg" title="Workshop_2" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc16.jpg" title="Workshop_3" class="img-fluid rounded z-depth-1" %}
-</div>
-</div>
-<div class="caption">
-    Pictures of some steel fabrication workshops in Oman
-</div>
+For the design to be as affordable as possible, a frugal design approach with a participatory design approach was chosen. A frugal design is one that focuses on the bare minimum and
+
+The first proof of concept that was built in Oman was a low fidelity prototype. This was done to keep costs low and figure out the viability of the design quickly. The machine frame is made from standard 2" (50mm) square steel profiles which are usually in surplus in such workshops. The mechanical and electronic components are typical 3d printer components and were chosen due to their affordability and availability. 
+
+The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. They seldom had the time to work on such projects due to working 6 days a week, 12 hours each day. This mean't they rarely had free time and therefore it was imperative to find a company that would be willing to help with the build during their work hours.
+
+When asked about the need for more automated machines, they often complained about the lack of space because they imagined CNC or automated machine tools must be really big as industrial machines normally are. Most small shops had 2-3 workers and none of the workshops observed had any CNC machine tools. Those that did possess machine tools, these were usually manual lathes that were often purchased used. None of them carried out precision work, so they usually produced structural (car park shades, warehouses etc) and non-structural items (gates, staircases, railings, furniture etc.) None of them had access to CNC machine tools and had no idea about CAD or CAM. A few pictures of such open air workshops below.
 
 As a next step various manufacturing processes within such workshops were observed to determine possible processes that could be automated. Gas cutting was chosen due to its potential for increased efficiency and productivity for the users. From the interviews it was revealed that due to the lack of space, users would prefer something that could be easily stowed away when not needed and most importantly they needed the machine to be as cheap as possible. Many estimated that they would be able to afford the machine if it were to cost between 500 and 800 USD. Bigger shops that had more employees and access to bigger jobs had a higher budget of about 1500-2000 USD. Next functional requirements were derived depending on the surveyed local resources from local shops such as available raw materials and other mechanical and electronic components.
 
