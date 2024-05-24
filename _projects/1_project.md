@@ -34,7 +34,9 @@ A frugal [CNC oxyfuel cutter](https://momer93.github.io/cnc-gas-cutter/) was des
     Pictures of some steel fabrication microenterprises in Oman
 </div>
 
-During field visits to several such microenterprises, it was noticed that when repetitive parts were required that were not simple rectangles, such as circles or more complex shapes such as stiffeners. The workers went through a tedious process of cutting out a template out of thin sheet metal, transferring the template marking onto the metal plate with chalk, followed by manual gas cutting using a hand held oxyfuel cutter and finally post-processing. The part edges were often uneven with excessive dross. This had to often be corrected by extensive grinding using a hand held grinder. Therefore, the cutting process was often tedious, time consuming and mundane. With some workers revealing stories of gas explosions while cutting, the process was also dangerous. In terms of increased efficiency and reducing manual labour, the gas cutting process was determined to benefit from process automation.
+When repetitive parts were required that were not simple rectangles, such as circles or more complex shapes such as stiffeners. The workers went through a tedious process of drawing a shape on a thin metal sheet, cutting it out, laying the template onto the metal plate to be cut and marking it with chalk, followed by manual gas cutting using a hand held oxyfuel cutter and finally post-processing.
+
+The part edges were often uneven with excessive dross. This had to be corrected by extensive grinding using a hand held grinder. Therefore, the entire cutting process was inefficient, often tedious, time-consuming and mundane, specially for large batches of repititive shapes. With some workers revealing stories of gas explosions while cutting, the process was also dangerous. In terms of increased efficiency and reducing manual labour, the gas cutting process was determined to benefit significantly from process automation.
 
 The project was started by carrying our a field visit to manufacturing microenterprises in the industrial cluster of Wadi Kabir Sanaya in the city of Muscat. The cluster has a pre-dominantly dense population of migrant run manufacturing microenterprises. Due to limited online and telecommunication opportunities of the microenterprises, interviews with the respondents were carried out face to face at their sites of business. The respondents were all male migrants from the South Asian countries of Pakistan, India, and Bangladesh. Semi-structured interviews and field observations were carried out to gain an understanding of the technology needs and readiness levels of the target group. Talking with the shop owners revealed insights into their available resources, educational backgrounds and day to day lives. Most had small workshop spaces which were not more than 15-20 square meters. They were all open air workshops with no climate control and dust being everywhere. They seldom had the time to work on such projects due to working 6 days a week, 12 hours each day. This mean't they rarely had free time and therefore it was imperative to find a company that would be willing to help with the build during their work hours.
 
@@ -46,14 +48,26 @@ The project was started by carrying our a field visit to manufacturing microente
         {% include figure.html path="assets/img/gcp/gc3.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gcp/gc4.jpg" title="Interviews_2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gcp/gc4.jpg" title="Interviews_3" class="img-fluid rounded z-depth-1" %}
 </div>
 </div>
 <div class="caption">
     Interviewing owners and workers from various steel fabrication microenterprises in Oman.
 </div>
 
-Next interviews were carried out with the end users to determine key design design requirements. Through qualitative interviews, it was determined how they would normally use such a machine, what sizes and thicknesses of plate would they be normally cutting etc. The requirements for smaller shops compared to bigger shops were slightly different. Smaller shops often had very little space in the shop and did not often have jobs that needed the cutting of multiple plates. Such shops often wanted just the cheapest possible machine (max budget 500 euros), with portability or the function of stowing away to be important. Slightly bigger shops were willing to spend more for reliability and quality and were willing to spend up to 3000 euros. This showed that maybe a difference of features could be implemented to serve the different user categories. Next a survey was made of all available local raw material sizes and listed in an excel sheet along with pricing, such that only the listed locally available material would be used in the design.
+Next interviews were carried out with the end users to determine key design requirements. The requirements for smaller shops compared to bigger shops were slightly different. Smaller shops often had very little space in the shop and did not often have production runs that needed the cutting of multiple plates. Such shops often wanted just the cheapest possible machine (max budget 500 euros), with portability or the function of stowing away to be important. Slightly bigger shops were willing to spend more for reliability and quality (max budget upto 3000 euros). 
+
+**Key points learned from the interviews were:**
+1. Plate thicknesses they normally cut with a gas cutter range from 3 to 40 mm.
+2. They sometimes cut scrap cut pieces which are much smaller than a full sheet and sometimes also a full sheet
+3. Due to the weight of full sheets, they are unable to carry them, so cut them where they are unloaded by a vendor often outside the shop.
+4. They do not having cutting jobs all the time, so it is preferable for smaller shops to be able to stow the machine away to make more space when not needed
+5. For small jobs they would prefer to cut with the hand torch and so the torch should be removable from the CNC machine
+6. They preferred to purchase as little as possible and would like to use as much locally available material in the workshop than to buy exotic profiles or parts
+
+Such findings allowed me to determine the right strategy for the design. Next a survey was made of all available local raw material sizes and listed in an indexable spreadsheet along with pricing, such that only locally available material would be used in the design, atleast for the machine structure. 
+
+Next several concepts were generated for the machine by sketching on paper, making basic calculations on excel sheets etc. Next the chosen profiles and design was modelled in CAD. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -63,6 +77,10 @@ Next interviews were carried out with the end users to determine key design desi
 <div class="caption">
     List of locally available raw materials
 </div>
+
+Through qualitative interviews, it was determined how they would normally use such a machine, what sizes and thicknesses of plate would they be normally cutting etc. 
+
+
 
 The first proof of concept that was built in Oman was a low fidelity prototype. This was done to keep costs low and figure out the viability of the design quickly. The machine frame was designed from 2" (50mm) square steel profiles with a thickness of 2mm. These profiles were usually in surplus in such workshops, therefore even if there were leftovers, they could be reused in other projects.
 
@@ -96,7 +114,7 @@ The Z axis setup was responsible for raising and lowering the torch and actuatin
     Cad model of the Z-axis
 </div>
 
-The machine was completely fabricated and assembled in the microenterprise in Oman. The fabrication of the individual components faced several challenges due to several reasons. The workers could not dimension parts accurately by just reading them off a drawing and so templates of holes or cut outs were printed to scale on paper. The shapes were then cut out and glued onto the metal. A center punch was used to hammer the center points of the holes and these were then drilled on a drill press.
+The machine was completely fabricated and assembled in the microenterprise in Oman. The fabrication of the individual components faced several challenges. The workers could not dimension parts accurately by just reading them off a drawing and so templates of holes or cut outs were printed to scale on paper. The shapes were then cut out and glued onto the metal. A center punch was used to hammer the center points of the holes and these were then drilled on a drill press.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
