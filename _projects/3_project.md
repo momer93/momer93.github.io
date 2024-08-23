@@ -3,11 +3,23 @@ layout: page
 title: Semi-automatic watering system
 description: A esp32 powered remote moisture level sensing and watering system
 img: /assets/img/hobby/esp32_watering/pw9.jpg
-importance: 3
+importance: 1
 category: fun
 ---
 
-The plants watering setup uses an esp32 microcontroller board which is connected to a 8 channel relay board. The relays switch on 5V water pumps via buttons on a smartphone app.  Soil moisture sensors are also connected to the plants that measure the soil moisture at regular intervals and show it as a percentage on the app. A temperature and humidity sensor namely he DHT11 is also installed to collect weather data. The ESP32 is connected to the home wifi and also added to the software Homeassisstant which is installed on a raspberry pi central hub. The raspberry pi acts like a central hub and the esp32 as a node.
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hobby/esp32_watering/section_view.png" title="CAD model of design" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+     CAD model section view of controller design
+</div>
+
+
+section_view.png
+
+The plants watering setup uses an esp32 microcontroller board which is connected to a 8 channel relay board. The relays switch on 5V water pumps via buttons on a smartphone app.  Soil moisture sensors are also connected to the plants that measure the soil moisture at regular intervals and show it as a percentage on the app. A temperature and humidity sensor namely he DHT11 is also installed to collect weather data. The ESP32 is connected to the home wifi and also added to the software **Home Asisstant** which is installed on a raspberry pi central hub. The raspberry pi acts like a central hub and the esp32 as a node.
 
 The reason I built this was becaue I found it really cumbersome begging my neighbour to water my plants, every time I was away from home for over a month. So i decided to build one with really cheap with off the shelf components. I didn't want a system that would water my plants completely automatically, I actually wanted to water them myself depending on which plant actually needed it. Depending on the soil moisture readings, I pressed a button on the app and this switched on the pumps for a set duration of time and so I had full control and also enjoyed watering my plants, as I was in another country.
 

@@ -1,12 +1,20 @@
 ---
 layout: page
-title: Custom GCODE generator
-description: An easy to use GCODE generator for a CNC gas cutter
+title: Usability Design for Machine Tools
+description: An easy to use GCODE generator along with a DIY Joystick for motion control
 img: assets/img/gcodegen/GUI_1.png
 importance: 5
 category: work
 giscus_comments: true
 ---
+
+Open source machine tools and the associated open source tool chain often suffers from biases towards users of the global north. With open source software not getting as much development effort compared to commercial tools, the interfaces are usually not user friendly and much too complex for users with limited digital literacy.
+
+During the testing of the CNC Oxyfuel cutter(LINK PROJECT PAGE here), it was observed that it was much too complicated for the microenterprise users to learn to use the existing software toolchain of sketching the required shape in a CAD software, followed by exporting the drawing as a DXF file to a seperate CAM software, followed by applying the CAM toolpath to the desired shape and exporting the GCODE to be uploaded to the machine controller.
+
+** INSERT flowchart of current process **
+
+Even though the above toolchain is necessary for complex shapes and designs, for simpler shapes such as basic polygons or circles
 
 This 2D GCODE generator software outputs CNC machine code for the CNC Oxyfuel cutter documented in another page. The user has to input the dimensions of the shape to be cut, choose the material thickness and specify the quantity of the shapes. The software outputs a text file with the machine code that can be sent to the gas cutter to carry out the cutting process.
 
