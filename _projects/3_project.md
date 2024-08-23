@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Semi-automatic watering system
+title: Automated watering system
 description: A esp32 powered remote moisture level sensing and watering system
 img: /assets/img/hobby/esp32_watering/pw9.jpg
 importance: 1
