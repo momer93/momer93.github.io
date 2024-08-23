@@ -174,30 +174,3 @@ How to Make Something that Makes (almost) Anything</a></h5>
     </ul>
   </div>
 </div>
-
-<h3 style="color: #4b9cd3;" id="Thesis Supervised"><a href="">Thesis Supervised</a></h3>
-<!-- Thesis Christian frugal machine design -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="comp311" class="card-title"> Digital Fabrication for Children </h5>
-        <h6 class="card-subtitle font-italic">Instructor</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          3DP
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            I offer workshops for children aged 8 - 16 on various topics of digital fabrication such as 3D printing, CAD design, 2D graphics, laser cutting, basic electronics and programming. These workshops are offered in each session with a theme for instance designing cookie cutter before christmas, designing and building an led lit acrylic stand, an obstable avoiding robot etc.
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
