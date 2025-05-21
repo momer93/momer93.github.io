@@ -60,32 +60,37 @@ Among various fabrication processes, gas cutting was selected for automation due
 
 ### Frugal, Participatory Design
 
-The machine was designed **with** end users using a co-design approach:
+The machine was designed **with** end users using a co-design approach whereby the prototype was fabricated within one of the workshops. Workers participated in:
 
-- Built from surplus workshop materials (e.g., 2” square steel tubing)
-- Simple linear guides using locally available roller bearings
-- No reliance on imported machine torches — compatible with users’ own handheld torches
-- Fabrication aided by paper templates for marking and drilling
+- Suggesting fabrication methods
+- Design improvements
+- Solving design challenges during assembly for example by co-designing by prptotyping some of the complex sub-assemblies like the Z-axis
+- Assembling the machine frame in the workshop
 
 ### Local Constraints and Adaptations
+
+- The machine was built from easily available surplus workshop materials (e.g., 2” square steel tubing)
+- Simple linear guides using locally available roller bearings
+- No reliance on imported machine torches — compatible with users’ own handheld torches
+- Fabrication aided by paper templates for marking and drillingpp
+
+// put picture of the excel sheet of available local material, next to it show the basic hand torch
 
 - Materials like aluminum and precision linear rails were unavailable or too expensive
 - No access to standard machine parts (e.g., M3 screws), so designs were adapted
 - CAD development followed field sketches and rough calculations
+
+//put picture of the workshop setting, and a drilling picture to show jibg
 
 ## Key Features
 
 - **Affordable**: Target price $500–800 (small shops), up to $3000 (larger shops)
 - **Compact**: Easily stowable when not in use
 - **Safe & Efficient**: Reduces risk, labor, and post-processing
-- **User-Centric**: Designed and built with the microenterprise workers
+- **User-Centric**: Designed and built with the microenterprise workers taking local materials and capabilities into account
 
 ## Prototyping
 
-The prototype was fabricated within one of the workshops. Workers participated in:
 
-- Assembling the machine frame
-- Using printed templates for drilling
-- Solving design challenges during assembly
 
 ## Gallery
