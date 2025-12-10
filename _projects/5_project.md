@@ -6,84 +6,121 @@ img: assets/img/cncrout/router.jpg
 importance: 3
 category: work
 ---
+## Overview
 
-- This is a low cost design for a CNC router designed to be as minimalistic as possible and can mill standard full sized sheets of wood, dibond, plastics etc.
-- The key constraints for the design were affordability, use of local materials and the other typical engineering constraints such as reliability, robustness etc.
-- However, owing to the fact that the machine was to be easily replicated by microenterprises in resource constrained settings, design for manufacturing and assembly had to also be considered
-- Large format CNC routers that can accomodate an entire standard sheet (2.4m x 1.2m) are typically used in carpentry and signboards making where a milling cutter is used to either cut out shapes from dibond or plastic or as well as engrave complex designs in wood
-- For the microenterprise involved in the case study, their aim was to capture more of the value chain of signboards fabrication.
-- Currently they only manufacture the steel frame of the signboards, with the problem being the job is at the base of the value chain and so the least profitable
-- Also since many fabrication microenterprises can easily manufacture the frames, along with freelance workers who can do such jobs in the open with just a welding machine, the market rate for such jobs is very low and the majority of the value within such products is captured in later steps of the production process
-- The idea was to capture more of the value chain by being able to manufacture the individual letters, which would be impossible without access to a CNC router due to the complexity of the shapes involved
-- Moreover when they do get jobs for signboards where they would have to cut out oval shapes or shapes of arrows from dibond sheet (aluminium-ABS sandwich panel), the task of marking the sheet and cutting it out with hand tools is tedious and not aesthetic, whereby they have recieved complaints from the customer that the work is not presentable
-- There are no local producers of CNC routers and locally available ones are imports from China which are much too expensive for themn to afford
-- Moreover the machines are also overly bulky and rigid, which is impossible to accomodate in their small shops.
-- Therefore they were looking for an affordable as well as a portable machine that they could stow away when not being used
+A low-cost, large-format CNC router designed for microenterprises in resource-constrained environments.  
+The goal: enable small workshops to mill **full-sized sheets** (2.4 m × 1.2 m) of wood, plastics, and composite materials such as dibond—materials commonly used in signboard fabrication.
 
-- The design of the CNC router was essentially an adaptation of the frugal oxyfuel cutter (put hyperlink to the gas cutter page here) design, whereby the frame and linear motion setup is the same.
----
-layout: page
-title: project
-description: a project with a background image
-img: /assets/img/12.jpg
+Most commercially available CNC routers that handle full sheets are:
+
+- Too expensive  
+- Too bulky and heavy  
+- Not locally available  
+- Overengineered for the needs of small workshops  
+
+This project explores how a **frugal, locally fabricable, stowable CNC router** can extend the capabilities of small workshops and help them capture more value in their production chains.
 
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Problem & Context
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+The collaborating microenterprise specialized in fabricating **steel frames for signboards**.  
+However, this activity lies at the *bottom* of the value chain—easy to do, widely offered, heavily price-pressured, and minimally profitable.
 
+The higher-value steps—such as:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- Cutting complex letters  
+- Shaping dibond panels (arrows, ovals, logos)  
+- Engraving signboard faceplates  
 
+…were out of reach because they require **CNC routing**.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Local challenges observed:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %} -->
+- Cutting complex shapes by hand leads to **poor aesthetic quality**, customer complaints, and reduced competitiveness.  
+- Dibond and plastics are difficult to mark and cut manually in precise shapes.  
+- No local manufacturer produces CNC routers; imports from China are prohibitively expensive.  
+- Imported machines are large, rigid, and **too bulky** for 15–20 m² workshops.  
+- Microenterprises need something **portable, affordable, and stowable**—not a heavy industrial machine.
+
+A frugal CNC router would allow these workshops to:
+
+- Produce letters, icons, and decorative elements in-house  
+- Capture more of the value chain  
+- Offer services previously outsourced or unavailable  
+- Improve quality and consistency for customers  
+
+---
+
+## Design Goals
+
+Drawing from interviews and fieldwork, the design was guided by:
+
+- **Affordability:** cost appropriate for microenterprises  
+- **Use of local materials:** steel profiles, standard bearings, accessible hardware  
+- **Compactness:** ability to fold, disassemble, or stow when not in use  
+- **Ease of replication:** compatible with local fabrication capabilities  
+- **Reliability & robustness:** able to handle heavy daily use in dusty, open-air workshops  
+- **Minimalism:** avoid unnecessary complexity; focus on essential functions only  
+
+The overarching design question was:
+
+> “What is the simplest possible CNC router that can mill full sheets while being realistic to build in a microenterprise?”
+
+---
+
+## Design Approach
+
+The CNC router builds on lessons learned from the **Frugal CNC Oxyfuel Cutter** (link to be inserted):
+
+- Same **steel-frame architecture**  
+- Similar **roller-bearing linear motion system**  
+- A modular, frugal mechanical design suitable for manual fabrication  
+- A layout that can be assembled using paper templates, tape measures, and drill presses  
+
+This continuity allowed rapid prototyping, reuse of proven subsystems, and a reduction in design risk.
+
+### Key adaptations for routing:
+
+Routing imposes different physical demands than oxyfuel cutting. Routing requires:
+
+- Higher stiffness  
+- Controlled Z-axis movement over a wider range  
+- Chip evacuation considerations  
+- More precise positional tolerances
+
+The frugal router design therefore incorporates:
+
+- Reinforced steel-frame geometry  
+- Adapted linear carriages to handle lateral cutting forces  
+- Mounting structures for a commonly available trim router/spindle  
+- Simplified mechanisms that balance precision with manufacturability  
+
+All components were selected or redesigned so they could be sourced locally or fabricated in the workshop.
+
+---
+
+## Why a Frugal Router Matters
+
+For microenterprises in this context, a CNC router is not merely a tool—it is a **gateway to better economic positioning**:
+
+- Moves the enterprise up the value chain  
+- Enables entry into the high-margin signboard fabrication market  
+- Improves quality, consistency, and turnaround time  
+- Expands capabilities into furniture, cabinetry, engraving, prototyping, and more  
+
+An accessible CNC router can transform the workshop from a subcontractor of low-value tasks into a more autonomous, competitive production unit.
+
+---
+
+## Current Status
+
+A functional frugal CNC router design has been developed based on the architecture of the oxyfuel cutter, with adaptations for routing forces, sheet handling, and workshop constraints.
+
+Further prototyping, testing, and validation are ongoing. More detailed performance data and design analysis will be released following associated publications.
+
+---
+
+## Gallery
+
+- Add images here when ready
