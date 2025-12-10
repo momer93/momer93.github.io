@@ -8,42 +8,152 @@ category: work
 giscus_comments: true
 ---
 
-This project was a result of a comparative research project whereby I was exploring the concept of replicability of open source machine tools using the case study of the Remocube 3D printer, developed in a previous project. The project was carried out to empirically determine the challenges to replicating a fully open source design in a resource constrained context.
+## Overview
 
-Even though the design was affordable in Germany at about 650 Euros for the whole kit and was relatively easy to replicate. When exploring its replicaiton in Oman, it turned out to be significantly more difficult to source most of the components. The electronics and small hardware components could be imported from China via aliexpress. However, to import heavier parts such as the slotted aluminium profiles was prohibitively expensive whereby shipping alone costed 2 times the parts price.
+A frugal 3D printer derived from the open-source **Remocube** design, adapted for replication in Oman.
+
+The original Remocube printer was developed and built in Germany as an open-source, workshop-friendly machine with a LEGO-like pictorial build manual. It could be replicated for about **650 EUR** using off-the-shelf aluminium T-slot profiles and 3D-printed parts.
+
+This project asks a deceptively simple question:
+
+> If an open-source 3D printer is “easy to replicate” in Europe,  
+> what happens when you try to build the same machine in a **resource-constrained context** like Oman?
+
+---
+
+## Problem & Context
+
+The core research question is **replicability**:  
+How transferable are open-source machine tool designs across very different local ecosystems?
+
+In Oman, the Remocube design runs into several obstacles:
+
+- **Heavy components are prohibitively expensive to import**  
+  - Shipping T-slotted aluminium profiles from China cost **around 2× the price of the profiles themselves**.
+- **Limited local availability of maker infrastructure**  
+  - Few or no makerspaces, limited 3D printing services, no local shops selling 3D printers or printer parts.
+- **Microenterprises are set up for large steel structures, not precision frames**  
+  - Tape measures instead of calipers, no jigs, no flat reference surfaces.  
+  - Tolerances of a few millimetres are perfectly acceptable for their usual work.
+
+So while the design is *open* and *documented*, it is **not directly replicable** in this new context without substantial adaptation.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f3dp/buying_profiles_china.png" title="Buying alu profiles from china" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/f3dp/buying_profiles_china.png" title="Import cost of aluminium profiles" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Cost of importing aluminium slotted profiles for the 3d printer from china
+    Importing aluminium profiles: shipping dominates the cost and breaks the “affordable open-source” promise.
 </div>
 
-Therefore, the design had to be slightly adapted in order for the machine to be replicated in Oman. The only available local alternative was to use steel square hollow sections. The problem here was assembling firstly the frame together and then mounting the various components on the frame. For the slotted aluminium profile this was rather easy, since any part could be mounted along any of the profile faces by simply inserting a so-called hammer nut. Moreover, the frame could be completely put together without drilling any holes. With the lack of this slot on the steel profiles, a new method of mounting everything would have to be derived.
+---
+
+## The Original Remocube 3D Printer (Brief)
+
+The Remocube printer itself is:
+
+- Based on the **Hypercube Evolution** coreXY design.  
+- Uses **aluminium T-slot profiles** for a torsionally rigid frame.  
+- Employs **3D-printed PETG parts** for brackets and moving components.  
+- Upgraded with:
+  - Fully enclosed, temperature-controlled build chamber  
+  - Modern 32-bit electronics and 24 V power  
+  - Direct-drive extruder for flexible filaments  
+  - Safer routing and shielding for cables and mains wiring  
+
+A key outcome was an **IKEA-style pictographic build manual** and a full BOM with EU and Aliexpress links, enabling citizens in Hamburg to build printers in two-day workshops at schools, libraries and other institutions.
+
+The Remocube thus serves as a **test case**: well-documented, popular, replicable in Germany — but what changes when the same design is moved to Oman?
+
+---
+
+## Adapting the Frame: From T-Slot Aluminium to Steel Profiles
+
+With aluminium profiles unaffordable, the only realistic local alternative was **steel square hollow sections**.
+
+### Iteration 1 – Welded steel frame
+
+- The first prototype frame was welded from steel profiles using the same nominal dimensions as the original T-slot design.  
+- Microenterprise workers were confident: they weld frames all day long.  
+- The welded frame:
+  - Cost roughly **10 EUR**  
+  - Took around **one hour** to fabricate  
+  - Was dramatically cheaper than the ~450 EUR aluminium frame
+
+However, once assembled, **measurable warp and dimensional errors** caused binding on the X, Y and Z axes. For a 3D printer, small misalignments that are irrelevant in structural steel work become critical.
+
+### Iteration 2 – Bolted steel frame
+
+To gain better control over tolerances, the frame was redesigned to be **bolted instead of welded**:
+
+- 31 brackets  
+- ≈ 372 drilled holes  
+- Holes slightly oversized (e.g. 7 mm for M6 bolts) to allow adjustment during assembly
+
+This approach:
+
+- Greatly improved alignment and squareness  
+- Was **extremely labour-intensive** and still limited by local tooling
+- Required workaround strategies because:
+  - No jigs or surface plates were available  
+  - Fabrication was done with a **tape measure** rather than precision instruments  
+
+To compensate, **1:1 paper templates** were printed, glued to the profiles, center-punched, and then drilled — the same trick used in the CNC gas cutter project.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f3dp/frame_004.png" title="frame" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/f3dp/frame_004.png" title="Remocube frame in aluminium profiles" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/f3dp/View54.png" title="Mounting part on frame" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/f3dp/View54.png" title="Mounting components on T-slot frame with hammer nuts" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: T slotted profiles assembly of frame, Right: Mounting components on frame with hammer nuts
+    Original Remocube frame: T-slot aluminium profiles with hammer nuts make mounting trivial. In Oman, the steel alternative requires drill-after-drill-after-drill.
 </div>
 
-The first iteration of the frame fabrication involved welding the frame together using the same dimensions as the original slotted profile design. Even though warping is normally a concern with welding, done with the right jigs, tools and technique, warping can be avoided. On asking the microenterprise workers if they could weld the frame together according to the dimensions without any warp, they said they could since they welded frames all day long.
+---
 
-The welded frame cost about 10 euros and took about an hour. This was significantly cheaper than importing the slotted profiles from China, which would have cost about 450 euros just for the frame. This is a price difference of atleast 440 euros! However, on measuring the warp on the steel frame, it was noticed that there was significant dimensional errors in the frame, due to which there was binding in the X,Y and Z axis motion.
+## 3D Printing in a Context Without 3D Printers
 
-Therefore next, it was decided to use a bolting strategy instead of welding the frame together. This was much more labour and time intensive, however the frame could be assembled with much better accuracy and tolerances. The new design required 31 brackets and about 372 holes to be drilled. The holes were made slightly bigger than the bolt size, so for M6 bolts, the holes were 7mm in diameter. This would allow the frame profiles to be adjusted during assembly incase the holes were not accurately spaced.  As one can imagine this was highly time intensive and not the ideal solution. However, once the frame was built, the remaining parts could be mounted by similarly drilling further holes for each mounting point.
+Another paradox emerged:  
+The original design expects you to have a **3D printer to build a 3D printer**.
 
-Even the bolting method was fraught with difficulties in accurately drilling the holes. This was because the microenterprise workers possessed no jigs or flat surfaces to work on. Moreover, they did not use precision measurement tools like vernier calipers during fabrication but just a tape measure for all their work. This is because in conventional fabrication of large structures, tolerances of a few millimetres are acceptable and so a tape measure is normally sufficient. Therefore, for accurately marking the holes, paper templates were printed which could be placed on the profiles and the hole centers marked with a center punch.
+In Germany this is trivial: you either own a printer, know someone who does, or visit a local makerspace. In Oman:
 
-Most functional parts and brackets on the 3d printer were designed to be 3d printed in the original design. 3D printing services could not be found locally and only a few relatively new startups offered 3d printing as a service, but their prices were too high to realistically build the printer within budget. There were also no local makerspaces or places where 3d printing could be carried out. Moreover, no shops sold 3d printers either. A local university was then approached to print the parts as part of a research project and the parts could be printed. 3D printing is not really an ideal process for such economies where 3d printing is not as ubiquitous as in the global north. Moreover, it is counterintuitive to have to 3d print parts to build a 3d printer.
+- 3D printing services existed only as **expensive niche offerings**.  
+- There were **no local makerspaces** where parts could be printed cheaply.  
+- No shops sold printers or filaments.
 
-- Use case of the broken electrical connector clip
-- Redesign of the 3d printer to be built locally with co-design with local potential end users.
+The solution in this case was to **collaborate with a local university**, which printed the required parts within a research context. This works for a field study, but it highlights that:
+
+> “Open source + STL files” does **not** automatically equal “locally replicable”.
+
+---
+
+## Lessons on Replicability
+
+This project shows that replicating an open-source 3D printer in a resource-constrained setting is less about:
+
+- Licenses  
+- Firmware files  
+- Or even build manuals alone
+
+…and much more about:
+
+- The **local parts ecosystem** (what can be bought or scavenged)  
+- **Available manufacturing capabilities** (welding vs precision drilling, jigs, measurement tools)  
+- **Hidden costs of shipping and services**  
+- The paradox of relying on advanced tools (like 3D printers) that are themselves not yet democratized in that context
+
+The “Frugal 3D Printer” is therefore not just another printer, but a **case study in what it really takes to translate open hardware across geographies**.
+
+More detailed technical adaptations and evaluations are part of ongoing research.  
+Repository links, BOMs and manuals for the Remocube design are available via the project’s open-source repository (link to be added here).
+
+---
+
+## Gallery
+
+(Additional build photos, frame iterations, and workshop impressions can be added here.)
