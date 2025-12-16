@@ -33,9 +33,6 @@ The forming trials were carried out on a **3-axis CNC milling machine** equipped
   <div class="col-sm-6 mt-3 mt-md-0">
     {% include figure.html path="assets/img/spif/sheet_in_fixture.jpg" title="PVC sheet clamped in SPIF fixture on CNC machine" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-6 mt-3 mt-md-0">
-    {% include figure.html path="assets/img/spif/spif1.png" title="Single Point Incremental Forming (SPIF) schematic" class="img-fluid rounded z-depth-1" %}
-  </div>
 </div>
 <div class="caption">
   Experimental SPIF setup: PVC sheet clamped in a dedicated fixture and incrementally formed on a CNC machine.
