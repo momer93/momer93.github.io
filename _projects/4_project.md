@@ -9,80 +9,136 @@ category: work
 
 ## Overview
 
-This project, completed during my master’s studies in Manufacturing Engineering at TU Dortmund, investigated the **formability of PVC sheets using Single Point Incremental Forming (SPIF)**—an emerging dieless forming process in which a sheet is shaped gradually by a smooth, rounded tool following a programmed toolpath.
+This was a **3-month Master’s project** at TU Dortmund (Manufacturing Technology) investigating the **formability of PVC sheets using Single Point Incremental Forming (SPIF)**. SPIF is a dieless forming process where a smooth, rounded tool incrementally forms a sheet along a CNC toolpath, shaping the part layer-by-layer.
 
-SPIF is attractive for prototyping and low-volume production due to its flexibility, but polymeric materials such as PVC often suffer from excessive thinning during deformation. Understanding and improving this formability limit was the focus of the work.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/spif/spif1.png" title="Incremental forming setup" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Single point incremental forming of a PVC sheet.
-</div>
+The project combined **experiments, optical metrology, and finite element simulation** to understand why PVC fails at steep wall angles and how toolpath strategy can improve thickness distribution.
 
 ---
 
 ## Problem & Motivation
 
-PVC sheets exhibit significant **thinning during material flow** in SPIF, leading to early fracture before steep wall angles can be achieved.
+In SPIF, polymer sheets tend to experience **severe thinning** in the wall region. For PVC, this thinning leads to tearing before steep walls can be achieved.
 
-- Theoretical and experimental tests showed a maximum achievable wall angle of **≈ 65°** for the chosen material and process parameters.  
-- The goal of this project was therefore to explore **alternative toolpath strategies** that could increase the theoretical forming limit beyond this angle.
+The central question was:
 
-This required a combined **experimental + numerical** approach to understand how different parameters influence thinning, strain distribution, and failure.
+> How can toolpath strategy be improved to reduce thinning and push the forming limit beyond the conventional wall-angle ceiling?
 
 ---
 
 ## Experimental Setup
 
-The forming trials were conducted on a **3-axis CNC milling machine** equipped with:
+The forming trials were carried out on a **3-axis CNC milling machine** equipped with a custom clamping fixture and a rounded forming tool.
 
-- A custom sheet clamping fixture  
-- An **8 mm diameter rounded SPIF tool**  
-- A programmable toolpath for conical geometries
+<div class="row">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/sheet_in_fixture.jpg" title="PVC sheet clamped in SPIF fixture on CNC machine" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/spif1.png" title="Single Point Incremental Forming (SPIF) schematic" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Experimental SPIF setup: PVC sheet clamped in a dedicated fixture and incrementally formed on a CNC machine.
+</div>
 
-Toolpaths were generated using a simple Excel-based script allowing user-defined inputs such as:
-
-- Wall angle  
-- Depth of the cone  
-- Vertical step size / tool increment  
-
-A **Design of Experiments (DoE)** methodology was used to evaluate multiple parameter combinations and observe their influence on fracture behavior and wall-angle capability.
-
----
-
-## Measurement & Analysis
-
-When a forming test completed without fracture, the resulting geometry was digitized using an **ARAMIS 3D stereoscopic camera system**.
-
-Workflow:
-
-1. The formed PVC sheet was cleaned of lubrication residues.  
-2. Reference markers were applied to the surface for tracking.  
-3. A 3D scan was generated and exported as a mesh model.  
-4. A mid-section of the formed shape was extracted.  
-5. Thickness values along this section were exported as CSV data.  
-6. The values were plotted to identify **regions of critical thinning**.
-
-This enabled a precise comparison between:
-
-- Theoretical predictions  
-- Experimental deformation patterns  
-- The impact of different toolpath strategies on thinning behavior  
+Toolpaths for conical test geometries were generated programmatically (Excel-based NC generation), enabling controlled variation of key parameters such as wall angle, depth, and vertical step-down. A structured **Design of Experiments (DoE)** approach was used to explore parameter effects on failure and thickness evolution.
 
 ---
 
-## Outcome
+## Failure Mode: Thinning and Tearing
 
-The work identified the **critical material limits** for SPIF of PVC under the tested conditions and demonstrated how toolpath adjustments can influence thinning distributions.  
-The experiments confirmed the expected forming limit of around **65°**, providing a baseline for further optimization through multipass strategies or process modification.
+At higher wall angles, the sheet exhibited localized thinning followed by tearing—defining the practical forming limit.
 
-More detailed numerical simulations and extended studies were developed as part of the broader research associated with this project.
+<div class="row justify-content-sm-center">
+  <div class="col-sm-5 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/spif_tearing_defect.jpg" title="Localized thinning and tearing during SPIF of PVC" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Typical failure: localized thinning leading to tearing during SPIF of PVC.
+</div>
+
+---
+
+## Measurement & Validation with Optical Scanning
+
+When a test completed without fracture, the formed geometry was digitized using an optical 3D scanning system. The scan data enabled:
+
+- reconstruction of the formed geometry  
+- extraction of section cuts through the part  
+- thickness evaluation along the wall to locate critical thinning zones
+
+<div class="row">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/spif_scanning_part.jpg" title="Optical 3D scanning of formed sheet" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/spif_scanning_part_1.jpg" title="Stereo camera setup for measurement" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Optical metrology workflow used to capture the formed geometry and evaluate thickness distribution.
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/deformed_part_scan.jpg" title="Reconstructed scan of the deformed part" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Example of a reconstructed scan used for sectioning and thickness analysis.
+</div>
+
+---
+
+## Numerical Simulation (Abaqus Explicit)
+
+To analyze thickness evolution and deformation patterns, SPIF was modeled using **Abaqus Explicit**. The simulation helped identify:
+
+- where thinning accumulates along the wall  
+- how toolpath strategy influences material flow  
+- qualitative agreement with experimentally observed thinning zones
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/abaqus_STH_visual.jpg" title="Thickness distribution (STH) from Abaqus Explicit simulation" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  Thickness distribution (STH) from Abaqus Explicit simulation during incremental forming.
+</div>
+
+---
+
+## Toolpath Strategy Development (MATLAB)
+
+Conventional multi-pass strategies can unintentionally re-stretch the same material, increasing thinning. To counter this, a modified multi-stage concept was developed and visualized in MATLAB, aiming to pull additional material from the flange region to improve thickness distribution.
+
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/spif/3D_NTP_30mm_4s.jpg" title="MATLAB visualization of a multi-stage SPIF toolpath" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+  MATLAB visualization of the multi-stage toolpath strategy used to study material flow and thinning behavior.
+</div>
+
+---
+
+## Key Outcomes
+
+- Established an experimental baseline for **PVC SPIF forming limits** under the tested conditions  
+- Identified thinning-driven tearing as the dominant failure mode  
+- Implemented a repeatable workflow combining:
+  - CNC-based experiments  
+  - optical scanning for geometry/thickness evaluation  
+  - Abaqus Explicit simulation for thickness evolution  
+  - MATLAB toolpath visualization to reason about strategy effects  
+
+This project strengthened my interest in **process-aware manufacturing**, where toolpath design, measurement, and simulation are used together to improve real production outcomes.
 
 ---
 
 ## Gallery
 
-(Additional images of the setup, 3D scans, and formed samples can be added here.)
+(Additional part photos and plots can be added here as the project archive grows.)
